@@ -2,8 +2,7 @@
 Converting DOGMA annotation into NCBI's feature table format
 
 ## The problem that I am trying to solve:
-I have annotated a chloroplast genome using [DOGMA](https://dogma.ccbb.utexas.edu/). This produces annotation in DOGMA's
-table format, which looks like this:
+I have annotated a chloroplast genome using [DOGMA](https://dogma.ccbb.utexas.edu/), which generates annotation in a format that looks like this:
 
 ```
 275     1333    psbA    -
@@ -19,10 +18,9 @@ table format, which looks like this:
 ```
 
 I want to submit this annotation (along with the nucleotide sequence) to GenBank via
-[BankIt at NCBI](https://www.ncbi.nlm.nih.gov/WebSub/).
-BankIt requires the submission in Feature Table (.tbl) into Sequin (.sqn) format.
+[BankIt at NCBI](https://www.ncbi.nlm.nih.gov/WebSub/). BankIt requires the submission in Feature Table (```.tbl```) format.
 
-So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl) format, which looks like this:
+So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (```.tbl```) format, which looks like this:
 
 ```
 >Feature 1
@@ -55,7 +53,7 @@ So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl
                         product tRNA-Arginine
 ```
 
-So, the output of this script is a Feature Table (.tbl).
+So, the output of this script is a Feature Table (```.tbl```).
 The required input is DOGMA output plus the chloroplast genome sequence (in fastA format).
 
 Usage:
