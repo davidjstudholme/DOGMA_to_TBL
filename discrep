@@ -1,7 +1,6 @@
 Discrepancy Report Results
 
 Summary
-FATAL: BAD_LOCUS_TAG_FORMAT:113 locus tags are incorrectly formatted.
 DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
 DISC_FEATURE_COUNT:gene: 113 present
 DISC_FEATURE_COUNT:tRNA: 47 present
@@ -27,121 +26,6 @@ DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
 
 
 Detailed Report
-
-FATAL: DiscRep_ALL:BAD_LOCUS_TAG_FORMAT::113 locus tags are incorrectly formatted.
-genome:Gene	PsbA	1:c1333-275	GW17_> genome.tbl00001
-genome:Gene	MatK	1:c3465-1939	GW17_> genome.tbl00011
-genome:Gene	Rps16	1:c5287-5075	GW17_> genome.tbl00031
-genome:Gene	PsbK	1:8237-8419	GW17_> genome.tbl00051
-genome:Gene	PsbI	1:8820-8972	GW17_> genome.tbl00061
-genome:Gene	AtpA	1:c12785-11244	GW17_> genome.tbl00101
-genome:Gene	AtpF	1:c13270-12863	GW17_> genome.tbl00111
-genome:Gene	AtpF	1:c14257-14114	GW17_> genome.tbl00121
-genome:Gene	AtpH	1:c14996-14754	GW17_> genome.tbl00131
-genome:Gene	AtpI	1:c16904-16164	GW17_> genome.tbl00141
-genome:Gene	Rps2	1:c17895-17191	GW17_> genome.tbl00151
-genome:Gene	RpoC2	1:c22266-18190	GW17_> genome.tbl00161
-genome:Gene	RpoC1	1:c24093-22459	GW17_> genome.tbl00171
-genome:Gene	RpoC1	1:c25231-24791	GW17_> genome.tbl00181
-genome:Gene	RpoB	1:c28476-25261	GW17_> genome.tbl00191
-genome:Gene	PetN	1:30523-30615	GW17_> genome.tbl00211
-genome:Gene	PsbM	1:c32073-31972	GW17_> genome.tbl00221
-genome:Gene	PsbD	1:35775-36833	GW17_> genome.tbl00281
-genome:Gene	PsbC	1:36745-38202	GW17_> genome.tbl00291
-genome:Gene	LhbA	1:38786-38971	GW17_> genome.tbl00311
-genome:Gene	Rps14	1:c40035-39736	GW17_> genome.tbl00341
-genome:Gene	PsaB	1:c42389-40188	GW17_> genome.tbl00351
-genome:Gene	PsaA	1:c44667-42418	GW17_> genome.tbl00361
-genome:Gene	Ycf3	1:c45446-45300	GW17_> genome.tbl00371
-genome:Gene	Ycf3	1:c46455-46228	GW17_> genome.tbl00381
-genome:Gene	Ycf3	1:c47320-47189	GW17_> genome.tbl00391
-genome:Gene	Rps4	1:c48948-48346	GW17_> genome.tbl00411
-genome:Gene	NdhJ	1:c52411-51935	GW17_> genome.tbl00461
-genome:Gene	NdhK	1:c53375-52524	GW17_> genome.tbl00471
-genome:Gene	NdhC	1:c53617-53258	GW17_> genome.tbl00481
-genome:Gene	AtpE	1:c56565-56164	GW17_> genome.tbl00531
-genome:Gene	AtpB	1:c58058-56565	GW17_> genome.tbl00541
-genome:Gene	RbcL	1:58916-60367	GW17_> genome.tbl00551
-genome:Gene	AccD	1:61121-62740	GW17_> genome.tbl00561
-genome:Gene	PsaI	1:63303-63410	GW17_> genome.tbl00571
-genome:Gene	Ycf4	1:63765-64316	GW17_> genome.tbl00581
-genome:Gene	CemA	1:64969-65661	GW17_> genome.tbl00591
-genome:Gene	PetA	1:65886-66845	GW17_> genome.tbl00601
-genome:Gene	PsbJ	1:c67924-67805	GW17_> genome.tbl00611
-genome:Gene	PsbL	1:c68166-68053	GW17_> genome.tbl00621
-genome:Gene	PsbF	1:c68308-68192	GW17_> genome.tbl00631
-genome:Gene	PsbE	1:c68570-68322	GW17_> genome.tbl00641
-genome:Gene	PetL	1:70027-70119	GW17_> genome.tbl00651
-genome:Gene	PetG	1:70295-70405	GW17_> genome.tbl00661
-genome:Gene	PsaJ	1:71236-71361	GW17_> genome.tbl00701
-genome:Gene	Rpl33	1:71955-72152	GW17_> genome.tbl00711
-genome:Gene	Rps18	1:72324-72626	GW17_> genome.tbl00721
-genome:Gene	Rpl20	1:c73247-72897	GW17_> genome.tbl00731
-genome:Gene	Rps12	1:c74068-73955	GW17_> genome.tbl00741
-genome:Gene	ClpP	1:c74470-74222	GW17_> genome.tbl00751
-genome:Gene	ClpP	1:c75404-75114	GW17_> genome.tbl00761
-genome:Gene	ClpP	1:c76278-76210	GW17_> genome.tbl00771
-genome:Gene	Psi_psbT	1:76737-78254	GW17_> genome.tbl00781
-genome:Gene	PsbT	1:78433-78540	GW17_> genome.tbl00791
-genome:Gene	PsbN	1:c78739-78611	GW17_> genome.tbl00801
-genome:Gene	PsbH	1:78842-79069	GW17_> genome.tbl00811
-genome:Gene	PetB	1:79997-80650	GW17_> genome.tbl00821
-genome:Gene	PetD	1:81534-82085	GW17_> genome.tbl00831
-genome:Gene	RpoA	1:c83296-82286	GW17_> genome.tbl00841
-genome:Gene	Rps11	1:c83780-83367	GW17_> genome.tbl00851
-genome:Gene	Rpl36	1:c84019-83909	GW17_> genome.tbl00861
-genome:Gene	InfA	1:c84365-84135	GW17_> genome.tbl00871
-genome:Gene	Rps8	1:c84880-84485	GW17_> genome.tbl00881
-genome:Gene	Rpl14	1:c85485-85120	GW17_> genome.tbl00891
-genome:Gene	Rpl16	1:c86016-85618	GW17_> genome.tbl00901
-genome:Gene	Rps3	1:c87858-87208	GW17_> genome.tbl00911
-genome:Gene	Rpl22	1:c88311-87931	GW17_> genome.tbl00921
-genome:Gene	Rps19	1:c88843-88568	GW17_> genome.tbl00931
-genome:Gene	Rpl2	1:c89562-89134	GW17_> genome.tbl00951
-genome:Gene	Rpl2	1:c90608-90222	GW17_> genome.tbl00961
-genome:Gene	Rpl23	1:c90914-90636	GW17_> genome.tbl00971
-genome:Gene	Ycf2	1:91277-98182	GW17_> genome.tbl00991
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	NdhB	1:c100633-99881	GW17_> genome.tbl01031
-genome:Gene	NdhB	1:c102110-101334	GW17_> genome.tbl01041
-genome:Gene	Rps7	1:c102882-102418	GW17_> genome.tbl01051
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	Ycf68	1:107980-108252	GW17_> genome.tbl01111
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Ycf1	1:114546-120344	GW17_> genome.tbl01221
-genome:Gene	Rps15	1:120695-120997	GW17_> genome.tbl01231
-genome:Gene	NdhH	1:121105-122283	GW17_> genome.tbl01241
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
-genome:Gene	NdhF	1:c125618-123417	GW17_> genome.tbl01261
-genome:Gene	Rpl32	1:126410-126580	GW17_> genome.tbl01271
-genome:Gene	CcsA	1:127584-128573	GW17_> genome.tbl01291
-genome:Gene	NdhD	1:c130317-128815	GW17_> genome.tbl01301
-genome:Gene	PsaC	1:c130685-130443	GW17_> genome.tbl01311
-genome:Gene	NdhE	1:c131660-131358	GW17_> genome.tbl01321
-genome:Gene	NdhG	1:c132314-131787	GW17_> genome.tbl01331
-genome:Gene	NdhI	1:c133253-132714	GW17_> genome.tbl01341
-genome:Gene	NdhA	1:c133881-133345	GW17_> genome.tbl01351
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
-genome:Gene	NdhH	1:c136712-135534	GW17_> genome.tbl01381
-genome:Gene	Rps15	1:c137122-136820	GW17_> genome.tbl01391
-genome:Gene	Ycf1	1:c143271-137473	GW17_> genome.tbl01401
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
-genome:Gene	Ycf68	1:c149837-149565	GW17_> genome.tbl01511
-genome:Gene	Rps12_3end	1:154072-154323	GW17_> genome.tbl01551
-genome:Gene	Rps7	1:154935-155399	GW17_> genome.tbl01561
-genome:Gene	NdhB	1:155707-156483	GW17_> genome.tbl01571
-genome:Gene	NdhB	1:157184-157936	GW17_> genome.tbl01581
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
-genome:Gene	Ycf2	1:c166540-159635	GW17_> genome.tbl01621
-genome:Gene	Rpl23	1:166903-167181	GW17_> genome.tbl01641
-genome:Gene	Rpl2	1:167209-167595	GW17_> genome.tbl01651
-genome:Gene	Rpl2	1:168255-168683	GW17_> genome.tbl01661
 
 DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
 DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
@@ -207,119 +91,119 @@ genome:tRNA	His	1:c168804-168730
 
 DiscRep_ALL:EXTRA_GENES::113 gene features are not associated with a CDS or RNA feature.
 DiscRep_SUB:EXTRA_GENES::113 non-pseudo gene features are not associated with a CDS or RNA feature and do not have frameshift in the comment.
-genome:Gene	PsbA	1:c1333-275	GW17_> genome.tbl00001
-genome:Gene	MatK	1:c3465-1939	GW17_> genome.tbl00011
-genome:Gene	Rps16	1:c5287-5075	GW17_> genome.tbl00031
-genome:Gene	PsbK	1:8237-8419	GW17_> genome.tbl00051
-genome:Gene	PsbI	1:8820-8972	GW17_> genome.tbl00061
-genome:Gene	AtpA	1:c12785-11244	GW17_> genome.tbl00101
-genome:Gene	AtpF	1:c13270-12863	GW17_> genome.tbl00111
-genome:Gene	AtpF	1:c14257-14114	GW17_> genome.tbl00121
-genome:Gene	AtpH	1:c14996-14754	GW17_> genome.tbl00131
-genome:Gene	AtpI	1:c16904-16164	GW17_> genome.tbl00141
-genome:Gene	Rps2	1:c17895-17191	GW17_> genome.tbl00151
-genome:Gene	RpoC2	1:c22266-18190	GW17_> genome.tbl00161
-genome:Gene	RpoC1	1:c24093-22459	GW17_> genome.tbl00171
-genome:Gene	RpoC1	1:c25231-24791	GW17_> genome.tbl00181
-genome:Gene	RpoB	1:c28476-25261	GW17_> genome.tbl00191
-genome:Gene	PetN	1:30523-30615	GW17_> genome.tbl00211
-genome:Gene	PsbM	1:c32073-31972	GW17_> genome.tbl00221
-genome:Gene	PsbD	1:35775-36833	GW17_> genome.tbl00281
-genome:Gene	PsbC	1:36745-38202	GW17_> genome.tbl00291
-genome:Gene	LhbA	1:38786-38971	GW17_> genome.tbl00311
-genome:Gene	Rps14	1:c40035-39736	GW17_> genome.tbl00341
-genome:Gene	PsaB	1:c42389-40188	GW17_> genome.tbl00351
-genome:Gene	PsaA	1:c44667-42418	GW17_> genome.tbl00361
-genome:Gene	Ycf3	1:c45446-45300	GW17_> genome.tbl00371
-genome:Gene	Ycf3	1:c46455-46228	GW17_> genome.tbl00381
-genome:Gene	Ycf3	1:c47320-47189	GW17_> genome.tbl00391
-genome:Gene	Rps4	1:c48948-48346	GW17_> genome.tbl00411
-genome:Gene	NdhJ	1:c52411-51935	GW17_> genome.tbl00461
-genome:Gene	NdhK	1:c53375-52524	GW17_> genome.tbl00471
-genome:Gene	NdhC	1:c53617-53258	GW17_> genome.tbl00481
-genome:Gene	AtpE	1:c56565-56164	GW17_> genome.tbl00531
-genome:Gene	AtpB	1:c58058-56565	GW17_> genome.tbl00541
-genome:Gene	RbcL	1:58916-60367	GW17_> genome.tbl00551
-genome:Gene	AccD	1:61121-62740	GW17_> genome.tbl00561
-genome:Gene	PsaI	1:63303-63410	GW17_> genome.tbl00571
-genome:Gene	Ycf4	1:63765-64316	GW17_> genome.tbl00581
-genome:Gene	CemA	1:64969-65661	GW17_> genome.tbl00591
-genome:Gene	PetA	1:65886-66845	GW17_> genome.tbl00601
-genome:Gene	PsbJ	1:c67924-67805	GW17_> genome.tbl00611
-genome:Gene	PsbL	1:c68166-68053	GW17_> genome.tbl00621
-genome:Gene	PsbF	1:c68308-68192	GW17_> genome.tbl00631
-genome:Gene	PsbE	1:c68570-68322	GW17_> genome.tbl00641
-genome:Gene	PetL	1:70027-70119	GW17_> genome.tbl00651
-genome:Gene	PetG	1:70295-70405	GW17_> genome.tbl00661
-genome:Gene	PsaJ	1:71236-71361	GW17_> genome.tbl00701
-genome:Gene	Rpl33	1:71955-72152	GW17_> genome.tbl00711
-genome:Gene	Rps18	1:72324-72626	GW17_> genome.tbl00721
-genome:Gene	Rpl20	1:c73247-72897	GW17_> genome.tbl00731
-genome:Gene	Rps12	1:c74068-73955	GW17_> genome.tbl00741
-genome:Gene	ClpP	1:c74470-74222	GW17_> genome.tbl00751
-genome:Gene	ClpP	1:c75404-75114	GW17_> genome.tbl00761
-genome:Gene	ClpP	1:c76278-76210	GW17_> genome.tbl00771
-genome:Gene	Psi_psbT	1:76737-78254	GW17_> genome.tbl00781
-genome:Gene	PsbT	1:78433-78540	GW17_> genome.tbl00791
-genome:Gene	PsbN	1:c78739-78611	GW17_> genome.tbl00801
-genome:Gene	PsbH	1:78842-79069	GW17_> genome.tbl00811
-genome:Gene	PetB	1:79997-80650	GW17_> genome.tbl00821
-genome:Gene	PetD	1:81534-82085	GW17_> genome.tbl00831
-genome:Gene	RpoA	1:c83296-82286	GW17_> genome.tbl00841
-genome:Gene	Rps11	1:c83780-83367	GW17_> genome.tbl00851
-genome:Gene	Rpl36	1:c84019-83909	GW17_> genome.tbl00861
-genome:Gene	InfA	1:c84365-84135	GW17_> genome.tbl00871
-genome:Gene	Rps8	1:c84880-84485	GW17_> genome.tbl00881
-genome:Gene	Rpl14	1:c85485-85120	GW17_> genome.tbl00891
-genome:Gene	Rpl16	1:c86016-85618	GW17_> genome.tbl00901
-genome:Gene	Rps3	1:c87858-87208	GW17_> genome.tbl00911
-genome:Gene	Rpl22	1:c88311-87931	GW17_> genome.tbl00921
-genome:Gene	Rps19	1:c88843-88568	GW17_> genome.tbl00931
-genome:Gene	Rpl2	1:c89562-89134	GW17_> genome.tbl00951
-genome:Gene	Rpl2	1:c90608-90222	GW17_> genome.tbl00961
-genome:Gene	Rpl23	1:c90914-90636	GW17_> genome.tbl00971
-genome:Gene	Ycf2	1:91277-98182	GW17_> genome.tbl00991
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	NdhB	1:c100633-99881	GW17_> genome.tbl01031
-genome:Gene	NdhB	1:c102110-101334	GW17_> genome.tbl01041
-genome:Gene	Rps7	1:c102882-102418	GW17_> genome.tbl01051
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	Ycf68	1:107980-108252	GW17_> genome.tbl01111
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Ycf1	1:114546-120344	GW17_> genome.tbl01221
-genome:Gene	Rps15	1:120695-120997	GW17_> genome.tbl01231
-genome:Gene	NdhH	1:121105-122283	GW17_> genome.tbl01241
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
-genome:Gene	NdhF	1:c125618-123417	GW17_> genome.tbl01261
-genome:Gene	Rpl32	1:126410-126580	GW17_> genome.tbl01271
-genome:Gene	CcsA	1:127584-128573	GW17_> genome.tbl01291
-genome:Gene	NdhD	1:c130317-128815	GW17_> genome.tbl01301
-genome:Gene	PsaC	1:c130685-130443	GW17_> genome.tbl01311
-genome:Gene	NdhE	1:c131660-131358	GW17_> genome.tbl01321
-genome:Gene	NdhG	1:c132314-131787	GW17_> genome.tbl01331
-genome:Gene	NdhI	1:c133253-132714	GW17_> genome.tbl01341
-genome:Gene	NdhA	1:c133881-133345	GW17_> genome.tbl01351
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
-genome:Gene	NdhH	1:c136712-135534	GW17_> genome.tbl01381
-genome:Gene	Rps15	1:c137122-136820	GW17_> genome.tbl01391
-genome:Gene	Ycf1	1:c143271-137473	GW17_> genome.tbl01401
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
-genome:Gene	Ycf68	1:c149837-149565	GW17_> genome.tbl01511
-genome:Gene	Rps12_3end	1:154072-154323	GW17_> genome.tbl01551
-genome:Gene	Rps7	1:154935-155399	GW17_> genome.tbl01561
-genome:Gene	NdhB	1:155707-156483	GW17_> genome.tbl01571
-genome:Gene	NdhB	1:157184-157936	GW17_> genome.tbl01581
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
-genome:Gene	Ycf2	1:c166540-159635	GW17_> genome.tbl01621
-genome:Gene	Rpl23	1:166903-167181	GW17_> genome.tbl01641
-genome:Gene	Rpl2	1:167209-167595	GW17_> genome.tbl01651
-genome:Gene	Rpl2	1:168255-168683	GW17_> genome.tbl01661
+genome:Gene	PsbA	1:c1333-275	GW17_c00001
+genome:Gene	MatK	1:c3465-1939	GW17_c00011
+genome:Gene	Rps16	1:c5287-5075	GW17_c00031
+genome:Gene	PsbK	1:8237-8419	GW17_c00051
+genome:Gene	PsbI	1:8820-8972	GW17_c00061
+genome:Gene	AtpA	1:c12785-11244	GW17_c00101
+genome:Gene	AtpF	1:c13270-12863	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
+genome:Gene	AtpH	1:c14996-14754	GW17_c00131
+genome:Gene	AtpI	1:c16904-16164	GW17_c00141
+genome:Gene	Rps2	1:c17895-17191	GW17_c00151
+genome:Gene	RpoC2	1:c22266-18190	GW17_c00161
+genome:Gene	RpoC1	1:c24093-22459	GW17_c00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoB	1:c28476-25261	GW17_c00191
+genome:Gene	PetN	1:30523-30615	GW17_c00211
+genome:Gene	PsbM	1:c32073-31972	GW17_c00221
+genome:Gene	PsbD	1:35775-36833	GW17_c00281
+genome:Gene	PsbC	1:36745-38202	GW17_c00291
+genome:Gene	LhbA	1:38786-38971	GW17_c00311
+genome:Gene	Rps14	1:c40035-39736	GW17_c00341
+genome:Gene	PsaB	1:c42389-40188	GW17_c00351
+genome:Gene	PsaA	1:c44667-42418	GW17_c00361
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c47320-47189	GW17_c00391
+genome:Gene	Rps4	1:c48948-48346	GW17_c00411
+genome:Gene	NdhJ	1:c52411-51935	GW17_c00461
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53258	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56565	GW17_c00541
+genome:Gene	RbcL	1:58916-60367	GW17_c00551
+genome:Gene	AccD	1:61121-62740	GW17_c00561
+genome:Gene	PsaI	1:63303-63410	GW17_c00571
+genome:Gene	Ycf4	1:63765-64316	GW17_c00581
+genome:Gene	CemA	1:64969-65661	GW17_c00591
+genome:Gene	PetA	1:65886-66845	GW17_c00601
+genome:Gene	PsbJ	1:c67924-67805	GW17_c00611
+genome:Gene	PsbL	1:c68166-68053	GW17_c00621
+genome:Gene	PsbF	1:c68308-68192	GW17_c00631
+genome:Gene	PsbE	1:c68570-68322	GW17_c00641
+genome:Gene	PetL	1:70027-70119	GW17_c00651
+genome:Gene	PetG	1:70295-70405	GW17_c00661
+genome:Gene	PsaJ	1:71236-71361	GW17_c00701
+genome:Gene	Rpl33	1:71955-72152	GW17_c00711
+genome:Gene	Rps18	1:72324-72626	GW17_c00721
+genome:Gene	Rpl20	1:c73247-72897	GW17_c00731
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
+genome:Gene	ClpP	1:c76278-76210	GW17_c00771
+genome:Gene	Psi_psbT	1:76737-78254	GW17_c00781
+genome:Gene	PsbT	1:78433-78540	GW17_c00791
+genome:Gene	PsbN	1:c78739-78611	GW17_c00801
+genome:Gene	PsbH	1:78842-79069	GW17_c00811
+genome:Gene	PetB	1:79997-80650	GW17_c00821
+genome:Gene	PetD	1:81534-82085	GW17_c00831
+genome:Gene	RpoA	1:c83296-82286	GW17_c00841
+genome:Gene	Rps11	1:c83780-83367	GW17_c00851
+genome:Gene	Rpl36	1:c84019-83909	GW17_c00861
+genome:Gene	InfA	1:c84365-84135	GW17_c00871
+genome:Gene	Rps8	1:c84880-84485	GW17_c00881
+genome:Gene	Rpl14	1:c85485-85120	GW17_c00891
+genome:Gene	Rpl16	1:c86016-85618	GW17_c00901
+genome:Gene	Rps3	1:c87858-87208	GW17_c00911
+genome:Gene	Rpl22	1:c88311-87931	GW17_c00921
+genome:Gene	Rps19	1:c88843-88568	GW17_c00931
+genome:Gene	Rpl2	1:c89562-89134	GW17_c00951
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl23	1:c90914-90636	GW17_c00971
+genome:Gene	Ycf2	1:91277-98182	GW17_c00991
+genome:Gene	Ycf15	1:98300-98470	GW17_c01001
+genome:Gene	Ycf15	1:98445-98531	GW17_c01011
+genome:Gene	NdhB	1:c100633-99881	GW17_c01031
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
+genome:Gene	Rps7	1:c102882-102418	GW17_c01051
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
+genome:Gene	Ycf68	1:107980-108252	GW17_c01111
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
+genome:Gene	Ycf1	1:114546-120344	GW17_c01221
+genome:Gene	Rps15	1:120695-120997	GW17_c01231
+genome:Gene	NdhH	1:121105-122283	GW17_c01241
+genome:Gene	Orf188	1:122288-122851	GW17_c01251
+genome:Gene	NdhF	1:c125618-123417	GW17_c01261
+genome:Gene	Rpl32	1:126410-126580	GW17_c01271
+genome:Gene	CcsA	1:127584-128573	GW17_c01291
+genome:Gene	NdhD	1:c130317-128815	GW17_c01301
+genome:Gene	PsaC	1:c130685-130443	GW17_c01311
+genome:Gene	NdhE	1:c131660-131358	GW17_c01321
+genome:Gene	NdhG	1:c132314-131787	GW17_c01331
+genome:Gene	NdhI	1:c133253-132714	GW17_c01341
+genome:Gene	NdhA	1:c133881-133345	GW17_c01351
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	NdhH	1:c136712-135534	GW17_c01381
+genome:Gene	Rps15	1:c137122-136820	GW17_c01391
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
+genome:Gene	Orf56	1:148310-148474	GW17_c01471
+genome:Gene	Orf42	1:148675-148791	GW17_c01481
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
+genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
+genome:Gene	Rps7	1:154935-155399	GW17_c01561
+genome:Gene	NdhB	1:155707-156483	GW17_c01571
+genome:Gene	NdhB	1:157184-157936	GW17_c01581
+genome:Gene	Ycf15	1:c159372-159286	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf2	1:c166540-159635	GW17_c01621
+genome:Gene	Rpl23	1:166903-167181	GW17_c01641
+genome:Gene	Rpl2	1:167209-167595	GW17_c01651
+genome:Gene	Rpl2	1:168255-168683	GW17_c01661
 
 DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
 genome:1 (length 168843)
@@ -327,108 +211,108 @@ genome:1 (length 168843)
 DiscRep_ALL:DUPLICATE_GENE_LOCUS::48 genes have the same locus as another gene on the same Bioseq.
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::48 genes have the same locus as another gene on lcl|1
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus AtpF
-genome:Gene	AtpF	1:c13270-12863	GW17_> genome.tbl00111
-genome:Gene	AtpF	1:c14257-14114	GW17_> genome.tbl00121
+genome:Gene	AtpF	1:c13270-12863	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::3 genes have locus ClpP
-genome:Gene	ClpP	1:c76278-76210	GW17_> genome.tbl00771
-genome:Gene	ClpP	1:c74470-74222	GW17_> genome.tbl00751
-genome:Gene	ClpP	1:c75404-75114	GW17_> genome.tbl00761
+genome:Gene	ClpP	1:c76278-76210	GW17_c00771
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus NdhA
-genome:Gene	NdhA	1:c133881-133345	GW17_> genome.tbl01351
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
+genome:Gene	NdhA	1:c133881-133345	GW17_c01351
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus NdhB
-genome:Gene	NdhB	1:c102110-101334	GW17_> genome.tbl01041
-genome:Gene	NdhB	1:155707-156483	GW17_> genome.tbl01571
-genome:Gene	NdhB	1:c100633-99881	GW17_> genome.tbl01031
-genome:Gene	NdhB	1:157184-157936	GW17_> genome.tbl01581
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
+genome:Gene	NdhB	1:155707-156483	GW17_c01571
+genome:Gene	NdhB	1:c100633-99881	GW17_c01031
+genome:Gene	NdhB	1:157184-157936	GW17_c01581
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus NdhH
-genome:Gene	NdhH	1:121105-122283	GW17_> genome.tbl01241
-genome:Gene	NdhH	1:c136712-135534	GW17_> genome.tbl01381
+genome:Gene	NdhH	1:121105-122283	GW17_c01241
+genome:Gene	NdhH	1:c136712-135534	GW17_c01381
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf188
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	Orf188	1:122288-122851	GW17_c01251
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf42
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
+genome:Gene	Orf42	1:148675-148791	GW17_c01481
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf56
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
+genome:Gene	Orf56	1:148310-148474	GW17_c01471
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus Rpl2
-genome:Gene	Rpl2	1:168255-168683	GW17_> genome.tbl01661
-genome:Gene	Rpl2	1:167209-167595	GW17_> genome.tbl01651
-genome:Gene	Rpl2	1:c90608-90222	GW17_> genome.tbl00961
-genome:Gene	Rpl2	1:c89562-89134	GW17_> genome.tbl00951
+genome:Gene	Rpl2	1:168255-168683	GW17_c01661
+genome:Gene	Rpl2	1:167209-167595	GW17_c01651
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl2	1:c89562-89134	GW17_c00951
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rpl23
-genome:Gene	Rpl23	1:166903-167181	GW17_> genome.tbl01641
-genome:Gene	Rpl23	1:c90914-90636	GW17_> genome.tbl00971
+genome:Gene	Rpl23	1:166903-167181	GW17_c01641
+genome:Gene	Rpl23	1:c90914-90636	GW17_c00971
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus RpoC1
-genome:Gene	RpoC1	1:c25231-24791	GW17_> genome.tbl00181
-genome:Gene	RpoC1	1:c24093-22459	GW17_> genome.tbl00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoC1	1:c24093-22459	GW17_c00171
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps12
-genome:Gene	Rps12	1:c74068-73955	GW17_> genome.tbl00741
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps12_3end
-genome:Gene	Rps12_3end	1:154072-154323	GW17_> genome.tbl01551
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
+genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps15
-genome:Gene	Rps15	1:c137122-136820	GW17_> genome.tbl01391
-genome:Gene	Rps15	1:120695-120997	GW17_> genome.tbl01231
+genome:Gene	Rps15	1:c137122-136820	GW17_c01391
+genome:Gene	Rps15	1:120695-120997	GW17_c01231
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps7
-genome:Gene	Rps7	1:154935-155399	GW17_> genome.tbl01561
-genome:Gene	Rps7	1:c102882-102418	GW17_> genome.tbl01051
+genome:Gene	Rps7	1:154935-155399	GW17_c01561
+genome:Gene	Rps7	1:c102882-102418	GW17_c01051
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf1
-genome:Gene	Ycf1	1:c143271-137473	GW17_> genome.tbl01401
-genome:Gene	Ycf1	1:114546-120344	GW17_> genome.tbl01221
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
+genome:Gene	Ycf1	1:114546-120344	GW17_c01221
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus Ycf15
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf15	1:c159372-159286	GW17_c01601
+genome:Gene	Ycf15	1:98445-98531	GW17_c01011
+genome:Gene	Ycf15	1:98300-98470	GW17_c01001
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf2
-genome:Gene	Ycf2	1:c166540-159635	GW17_> genome.tbl01621
-genome:Gene	Ycf2	1:91277-98182	GW17_> genome.tbl00991
+genome:Gene	Ycf2	1:c166540-159635	GW17_c01621
+genome:Gene	Ycf2	1:91277-98182	GW17_c00991
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::3 genes have locus Ycf3
-genome:Gene	Ycf3	1:c47320-47189	GW17_> genome.tbl00391
-genome:Gene	Ycf3	1:c46455-46228	GW17_> genome.tbl00381
-genome:Gene	Ycf3	1:c45446-45300	GW17_> genome.tbl00371
+genome:Gene	Ycf3	1:c47320-47189	GW17_c00391
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf68
-genome:Gene	Ycf68	1:c149837-149565	GW17_> genome.tbl01511
-genome:Gene	Ycf68	1:107980-108252	GW17_> genome.tbl01111
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
+genome:Gene	Ycf68	1:107980-108252	GW17_c01111
 
 DiscRep_ALL:OVERLAPPING_GENES::14 genes overlap another gene on the same strand.
-genome:Gene	PsbD	1:35775-36833	GW17_> genome.tbl00281
-genome:Gene	PsbC	1:36745-38202	GW17_> genome.tbl00291
-genome:Gene	NdhK	1:c53375-52524	GW17_> genome.tbl00471
-genome:Gene	NdhC	1:c53617-53258	GW17_> genome.tbl00481
-genome:Gene	AtpE	1:c56565-56164	GW17_> genome.tbl00531
-genome:Gene	AtpB	1:c58058-56565	GW17_> genome.tbl00541
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
+genome:Gene	PsbD	1:35775-36833	GW17_c00281
+genome:Gene	PsbC	1:36745-38202	GW17_c00291
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53258	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56565	GW17_c00541
+genome:Gene	Ycf15	1:98300-98470	GW17_c01001
+genome:Gene	Ycf15	1:98445-98531	GW17_c01011
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	Ycf15	1:c159372-159286	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
 
 DiscRep_ALL:FIND_BADLEN_TRNAS::13 tRNAs are too short
 genome:tRNA	Lys	1:c4331-4295	
@@ -448,250 +332,250 @@ genome:tRNA	Ile	1:c150048-150007
 DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
 
 DiscRep_ALL:ONCALLER_SUPERFLUOUS_GENE::113 gene features are not associated with any feature and are not pseudo.
-genome:Gene	PsbA	1:c1333-275	GW17_> genome.tbl00001
-genome:Gene	MatK	1:c3465-1939	GW17_> genome.tbl00011
-genome:Gene	Rps16	1:c5287-5075	GW17_> genome.tbl00031
-genome:Gene	PsbK	1:8237-8419	GW17_> genome.tbl00051
-genome:Gene	PsbI	1:8820-8972	GW17_> genome.tbl00061
-genome:Gene	AtpA	1:c12785-11244	GW17_> genome.tbl00101
-genome:Gene	AtpF	1:c13270-12863	GW17_> genome.tbl00111
-genome:Gene	AtpF	1:c14257-14114	GW17_> genome.tbl00121
-genome:Gene	AtpH	1:c14996-14754	GW17_> genome.tbl00131
-genome:Gene	AtpI	1:c16904-16164	GW17_> genome.tbl00141
-genome:Gene	Rps2	1:c17895-17191	GW17_> genome.tbl00151
-genome:Gene	RpoC2	1:c22266-18190	GW17_> genome.tbl00161
-genome:Gene	RpoC1	1:c24093-22459	GW17_> genome.tbl00171
-genome:Gene	RpoC1	1:c25231-24791	GW17_> genome.tbl00181
-genome:Gene	RpoB	1:c28476-25261	GW17_> genome.tbl00191
-genome:Gene	PetN	1:30523-30615	GW17_> genome.tbl00211
-genome:Gene	PsbM	1:c32073-31972	GW17_> genome.tbl00221
-genome:Gene	PsbD	1:35775-36833	GW17_> genome.tbl00281
-genome:Gene	PsbC	1:36745-38202	GW17_> genome.tbl00291
-genome:Gene	LhbA	1:38786-38971	GW17_> genome.tbl00311
-genome:Gene	Rps14	1:c40035-39736	GW17_> genome.tbl00341
-genome:Gene	PsaB	1:c42389-40188	GW17_> genome.tbl00351
-genome:Gene	PsaA	1:c44667-42418	GW17_> genome.tbl00361
-genome:Gene	Ycf3	1:c45446-45300	GW17_> genome.tbl00371
-genome:Gene	Ycf3	1:c46455-46228	GW17_> genome.tbl00381
-genome:Gene	Ycf3	1:c47320-47189	GW17_> genome.tbl00391
-genome:Gene	Rps4	1:c48948-48346	GW17_> genome.tbl00411
-genome:Gene	NdhJ	1:c52411-51935	GW17_> genome.tbl00461
-genome:Gene	NdhK	1:c53375-52524	GW17_> genome.tbl00471
-genome:Gene	NdhC	1:c53617-53258	GW17_> genome.tbl00481
-genome:Gene	AtpE	1:c56565-56164	GW17_> genome.tbl00531
-genome:Gene	AtpB	1:c58058-56565	GW17_> genome.tbl00541
-genome:Gene	RbcL	1:58916-60367	GW17_> genome.tbl00551
-genome:Gene	AccD	1:61121-62740	GW17_> genome.tbl00561
-genome:Gene	PsaI	1:63303-63410	GW17_> genome.tbl00571
-genome:Gene	Ycf4	1:63765-64316	GW17_> genome.tbl00581
-genome:Gene	CemA	1:64969-65661	GW17_> genome.tbl00591
-genome:Gene	PetA	1:65886-66845	GW17_> genome.tbl00601
-genome:Gene	PsbJ	1:c67924-67805	GW17_> genome.tbl00611
-genome:Gene	PsbL	1:c68166-68053	GW17_> genome.tbl00621
-genome:Gene	PsbF	1:c68308-68192	GW17_> genome.tbl00631
-genome:Gene	PsbE	1:c68570-68322	GW17_> genome.tbl00641
-genome:Gene	PetL	1:70027-70119	GW17_> genome.tbl00651
-genome:Gene	PetG	1:70295-70405	GW17_> genome.tbl00661
-genome:Gene	PsaJ	1:71236-71361	GW17_> genome.tbl00701
-genome:Gene	Rpl33	1:71955-72152	GW17_> genome.tbl00711
-genome:Gene	Rps18	1:72324-72626	GW17_> genome.tbl00721
-genome:Gene	Rpl20	1:c73247-72897	GW17_> genome.tbl00731
-genome:Gene	Rps12	1:c74068-73955	GW17_> genome.tbl00741
-genome:Gene	ClpP	1:c74470-74222	GW17_> genome.tbl00751
-genome:Gene	ClpP	1:c75404-75114	GW17_> genome.tbl00761
-genome:Gene	ClpP	1:c76278-76210	GW17_> genome.tbl00771
-genome:Gene	Psi_psbT	1:76737-78254	GW17_> genome.tbl00781
-genome:Gene	PsbT	1:78433-78540	GW17_> genome.tbl00791
-genome:Gene	PsbN	1:c78739-78611	GW17_> genome.tbl00801
-genome:Gene	PsbH	1:78842-79069	GW17_> genome.tbl00811
-genome:Gene	PetB	1:79997-80650	GW17_> genome.tbl00821
-genome:Gene	PetD	1:81534-82085	GW17_> genome.tbl00831
-genome:Gene	RpoA	1:c83296-82286	GW17_> genome.tbl00841
-genome:Gene	Rps11	1:c83780-83367	GW17_> genome.tbl00851
-genome:Gene	Rpl36	1:c84019-83909	GW17_> genome.tbl00861
-genome:Gene	InfA	1:c84365-84135	GW17_> genome.tbl00871
-genome:Gene	Rps8	1:c84880-84485	GW17_> genome.tbl00881
-genome:Gene	Rpl14	1:c85485-85120	GW17_> genome.tbl00891
-genome:Gene	Rpl16	1:c86016-85618	GW17_> genome.tbl00901
-genome:Gene	Rps3	1:c87858-87208	GW17_> genome.tbl00911
-genome:Gene	Rpl22	1:c88311-87931	GW17_> genome.tbl00921
-genome:Gene	Rps19	1:c88843-88568	GW17_> genome.tbl00931
-genome:Gene	Rpl2	1:c89562-89134	GW17_> genome.tbl00951
-genome:Gene	Rpl2	1:c90608-90222	GW17_> genome.tbl00961
-genome:Gene	Rpl23	1:c90914-90636	GW17_> genome.tbl00971
-genome:Gene	Ycf2	1:91277-98182	GW17_> genome.tbl00991
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	NdhB	1:c100633-99881	GW17_> genome.tbl01031
-genome:Gene	NdhB	1:c102110-101334	GW17_> genome.tbl01041
-genome:Gene	Rps7	1:c102882-102418	GW17_> genome.tbl01051
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	Ycf68	1:107980-108252	GW17_> genome.tbl01111
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Ycf1	1:114546-120344	GW17_> genome.tbl01221
-genome:Gene	Rps15	1:120695-120997	GW17_> genome.tbl01231
-genome:Gene	NdhH	1:121105-122283	GW17_> genome.tbl01241
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
-genome:Gene	NdhF	1:c125618-123417	GW17_> genome.tbl01261
-genome:Gene	Rpl32	1:126410-126580	GW17_> genome.tbl01271
-genome:Gene	CcsA	1:127584-128573	GW17_> genome.tbl01291
-genome:Gene	NdhD	1:c130317-128815	GW17_> genome.tbl01301
-genome:Gene	PsaC	1:c130685-130443	GW17_> genome.tbl01311
-genome:Gene	NdhE	1:c131660-131358	GW17_> genome.tbl01321
-genome:Gene	NdhG	1:c132314-131787	GW17_> genome.tbl01331
-genome:Gene	NdhI	1:c133253-132714	GW17_> genome.tbl01341
-genome:Gene	NdhA	1:c133881-133345	GW17_> genome.tbl01351
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
-genome:Gene	NdhH	1:c136712-135534	GW17_> genome.tbl01381
-genome:Gene	Rps15	1:c137122-136820	GW17_> genome.tbl01391
-genome:Gene	Ycf1	1:c143271-137473	GW17_> genome.tbl01401
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
-genome:Gene	Ycf68	1:c149837-149565	GW17_> genome.tbl01511
-genome:Gene	Rps12_3end	1:154072-154323	GW17_> genome.tbl01551
-genome:Gene	Rps7	1:154935-155399	GW17_> genome.tbl01561
-genome:Gene	NdhB	1:155707-156483	GW17_> genome.tbl01571
-genome:Gene	NdhB	1:157184-157936	GW17_> genome.tbl01581
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
-genome:Gene	Ycf2	1:c166540-159635	GW17_> genome.tbl01621
-genome:Gene	Rpl23	1:166903-167181	GW17_> genome.tbl01641
-genome:Gene	Rpl2	1:167209-167595	GW17_> genome.tbl01651
-genome:Gene	Rpl2	1:168255-168683	GW17_> genome.tbl01661
+genome:Gene	PsbA	1:c1333-275	GW17_c00001
+genome:Gene	MatK	1:c3465-1939	GW17_c00011
+genome:Gene	Rps16	1:c5287-5075	GW17_c00031
+genome:Gene	PsbK	1:8237-8419	GW17_c00051
+genome:Gene	PsbI	1:8820-8972	GW17_c00061
+genome:Gene	AtpA	1:c12785-11244	GW17_c00101
+genome:Gene	AtpF	1:c13270-12863	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
+genome:Gene	AtpH	1:c14996-14754	GW17_c00131
+genome:Gene	AtpI	1:c16904-16164	GW17_c00141
+genome:Gene	Rps2	1:c17895-17191	GW17_c00151
+genome:Gene	RpoC2	1:c22266-18190	GW17_c00161
+genome:Gene	RpoC1	1:c24093-22459	GW17_c00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoB	1:c28476-25261	GW17_c00191
+genome:Gene	PetN	1:30523-30615	GW17_c00211
+genome:Gene	PsbM	1:c32073-31972	GW17_c00221
+genome:Gene	PsbD	1:35775-36833	GW17_c00281
+genome:Gene	PsbC	1:36745-38202	GW17_c00291
+genome:Gene	LhbA	1:38786-38971	GW17_c00311
+genome:Gene	Rps14	1:c40035-39736	GW17_c00341
+genome:Gene	PsaB	1:c42389-40188	GW17_c00351
+genome:Gene	PsaA	1:c44667-42418	GW17_c00361
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c47320-47189	GW17_c00391
+genome:Gene	Rps4	1:c48948-48346	GW17_c00411
+genome:Gene	NdhJ	1:c52411-51935	GW17_c00461
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53258	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56565	GW17_c00541
+genome:Gene	RbcL	1:58916-60367	GW17_c00551
+genome:Gene	AccD	1:61121-62740	GW17_c00561
+genome:Gene	PsaI	1:63303-63410	GW17_c00571
+genome:Gene	Ycf4	1:63765-64316	GW17_c00581
+genome:Gene	CemA	1:64969-65661	GW17_c00591
+genome:Gene	PetA	1:65886-66845	GW17_c00601
+genome:Gene	PsbJ	1:c67924-67805	GW17_c00611
+genome:Gene	PsbL	1:c68166-68053	GW17_c00621
+genome:Gene	PsbF	1:c68308-68192	GW17_c00631
+genome:Gene	PsbE	1:c68570-68322	GW17_c00641
+genome:Gene	PetL	1:70027-70119	GW17_c00651
+genome:Gene	PetG	1:70295-70405	GW17_c00661
+genome:Gene	PsaJ	1:71236-71361	GW17_c00701
+genome:Gene	Rpl33	1:71955-72152	GW17_c00711
+genome:Gene	Rps18	1:72324-72626	GW17_c00721
+genome:Gene	Rpl20	1:c73247-72897	GW17_c00731
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
+genome:Gene	ClpP	1:c76278-76210	GW17_c00771
+genome:Gene	Psi_psbT	1:76737-78254	GW17_c00781
+genome:Gene	PsbT	1:78433-78540	GW17_c00791
+genome:Gene	PsbN	1:c78739-78611	GW17_c00801
+genome:Gene	PsbH	1:78842-79069	GW17_c00811
+genome:Gene	PetB	1:79997-80650	GW17_c00821
+genome:Gene	PetD	1:81534-82085	GW17_c00831
+genome:Gene	RpoA	1:c83296-82286	GW17_c00841
+genome:Gene	Rps11	1:c83780-83367	GW17_c00851
+genome:Gene	Rpl36	1:c84019-83909	GW17_c00861
+genome:Gene	InfA	1:c84365-84135	GW17_c00871
+genome:Gene	Rps8	1:c84880-84485	GW17_c00881
+genome:Gene	Rpl14	1:c85485-85120	GW17_c00891
+genome:Gene	Rpl16	1:c86016-85618	GW17_c00901
+genome:Gene	Rps3	1:c87858-87208	GW17_c00911
+genome:Gene	Rpl22	1:c88311-87931	GW17_c00921
+genome:Gene	Rps19	1:c88843-88568	GW17_c00931
+genome:Gene	Rpl2	1:c89562-89134	GW17_c00951
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl23	1:c90914-90636	GW17_c00971
+genome:Gene	Ycf2	1:91277-98182	GW17_c00991
+genome:Gene	Ycf15	1:98300-98470	GW17_c01001
+genome:Gene	Ycf15	1:98445-98531	GW17_c01011
+genome:Gene	NdhB	1:c100633-99881	GW17_c01031
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
+genome:Gene	Rps7	1:c102882-102418	GW17_c01051
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
+genome:Gene	Ycf68	1:107980-108252	GW17_c01111
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
+genome:Gene	Ycf1	1:114546-120344	GW17_c01221
+genome:Gene	Rps15	1:120695-120997	GW17_c01231
+genome:Gene	NdhH	1:121105-122283	GW17_c01241
+genome:Gene	Orf188	1:122288-122851	GW17_c01251
+genome:Gene	NdhF	1:c125618-123417	GW17_c01261
+genome:Gene	Rpl32	1:126410-126580	GW17_c01271
+genome:Gene	CcsA	1:127584-128573	GW17_c01291
+genome:Gene	NdhD	1:c130317-128815	GW17_c01301
+genome:Gene	PsaC	1:c130685-130443	GW17_c01311
+genome:Gene	NdhE	1:c131660-131358	GW17_c01321
+genome:Gene	NdhG	1:c132314-131787	GW17_c01331
+genome:Gene	NdhI	1:c133253-132714	GW17_c01341
+genome:Gene	NdhA	1:c133881-133345	GW17_c01351
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	NdhH	1:c136712-135534	GW17_c01381
+genome:Gene	Rps15	1:c137122-136820	GW17_c01391
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
+genome:Gene	Orf56	1:148310-148474	GW17_c01471
+genome:Gene	Orf42	1:148675-148791	GW17_c01481
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
+genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
+genome:Gene	Rps7	1:154935-155399	GW17_c01561
+genome:Gene	NdhB	1:155707-156483	GW17_c01571
+genome:Gene	NdhB	1:157184-157936	GW17_c01581
+genome:Gene	Ycf15	1:c159372-159286	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf2	1:c166540-159635	GW17_c01621
+genome:Gene	Rpl23	1:166903-167181	GW17_c01641
+genome:Gene	Rpl2	1:167209-167595	GW17_c01651
+genome:Gene	Rpl2	1:168255-168683	GW17_c01661
 
 DiscRep_ALL:TEST_BAD_GENE_NAME::119 genes contain suspect phrase or characters
 DiscRep_SUB:DISC_BAD_BACTERIAL_GENE_NAME::113 bacterial genes do not start with lowercase letters
-genome:Gene	PsbA	1:c1333-275	GW17_> genome.tbl00001
-genome:Gene	MatK	1:c3465-1939	GW17_> genome.tbl00011
-genome:Gene	Rps16	1:c5287-5075	GW17_> genome.tbl00031
-genome:Gene	PsbK	1:8237-8419	GW17_> genome.tbl00051
-genome:Gene	PsbI	1:8820-8972	GW17_> genome.tbl00061
-genome:Gene	AtpA	1:c12785-11244	GW17_> genome.tbl00101
-genome:Gene	AtpF	1:c13270-12863	GW17_> genome.tbl00111
-genome:Gene	AtpF	1:c14257-14114	GW17_> genome.tbl00121
-genome:Gene	AtpH	1:c14996-14754	GW17_> genome.tbl00131
-genome:Gene	AtpI	1:c16904-16164	GW17_> genome.tbl00141
-genome:Gene	Rps2	1:c17895-17191	GW17_> genome.tbl00151
-genome:Gene	RpoC2	1:c22266-18190	GW17_> genome.tbl00161
-genome:Gene	RpoC1	1:c24093-22459	GW17_> genome.tbl00171
-genome:Gene	RpoC1	1:c25231-24791	GW17_> genome.tbl00181
-genome:Gene	RpoB	1:c28476-25261	GW17_> genome.tbl00191
-genome:Gene	PetN	1:30523-30615	GW17_> genome.tbl00211
-genome:Gene	PsbM	1:c32073-31972	GW17_> genome.tbl00221
-genome:Gene	PsbD	1:35775-36833	GW17_> genome.tbl00281
-genome:Gene	PsbC	1:36745-38202	GW17_> genome.tbl00291
-genome:Gene	LhbA	1:38786-38971	GW17_> genome.tbl00311
-genome:Gene	Rps14	1:c40035-39736	GW17_> genome.tbl00341
-genome:Gene	PsaB	1:c42389-40188	GW17_> genome.tbl00351
-genome:Gene	PsaA	1:c44667-42418	GW17_> genome.tbl00361
-genome:Gene	Ycf3	1:c45446-45300	GW17_> genome.tbl00371
-genome:Gene	Ycf3	1:c46455-46228	GW17_> genome.tbl00381
-genome:Gene	Ycf3	1:c47320-47189	GW17_> genome.tbl00391
-genome:Gene	Rps4	1:c48948-48346	GW17_> genome.tbl00411
-genome:Gene	NdhJ	1:c52411-51935	GW17_> genome.tbl00461
-genome:Gene	NdhK	1:c53375-52524	GW17_> genome.tbl00471
-genome:Gene	NdhC	1:c53617-53258	GW17_> genome.tbl00481
-genome:Gene	AtpE	1:c56565-56164	GW17_> genome.tbl00531
-genome:Gene	AtpB	1:c58058-56565	GW17_> genome.tbl00541
-genome:Gene	RbcL	1:58916-60367	GW17_> genome.tbl00551
-genome:Gene	AccD	1:61121-62740	GW17_> genome.tbl00561
-genome:Gene	PsaI	1:63303-63410	GW17_> genome.tbl00571
-genome:Gene	Ycf4	1:63765-64316	GW17_> genome.tbl00581
-genome:Gene	CemA	1:64969-65661	GW17_> genome.tbl00591
-genome:Gene	PetA	1:65886-66845	GW17_> genome.tbl00601
-genome:Gene	PsbJ	1:c67924-67805	GW17_> genome.tbl00611
-genome:Gene	PsbL	1:c68166-68053	GW17_> genome.tbl00621
-genome:Gene	PsbF	1:c68308-68192	GW17_> genome.tbl00631
-genome:Gene	PsbE	1:c68570-68322	GW17_> genome.tbl00641
-genome:Gene	PetL	1:70027-70119	GW17_> genome.tbl00651
-genome:Gene	PetG	1:70295-70405	GW17_> genome.tbl00661
-genome:Gene	PsaJ	1:71236-71361	GW17_> genome.tbl00701
-genome:Gene	Rpl33	1:71955-72152	GW17_> genome.tbl00711
-genome:Gene	Rps18	1:72324-72626	GW17_> genome.tbl00721
-genome:Gene	Rpl20	1:c73247-72897	GW17_> genome.tbl00731
-genome:Gene	Rps12	1:c74068-73955	GW17_> genome.tbl00741
-genome:Gene	ClpP	1:c74470-74222	GW17_> genome.tbl00751
-genome:Gene	ClpP	1:c75404-75114	GW17_> genome.tbl00761
-genome:Gene	ClpP	1:c76278-76210	GW17_> genome.tbl00771
-genome:Gene	Psi_psbT	1:76737-78254	GW17_> genome.tbl00781
-genome:Gene	PsbT	1:78433-78540	GW17_> genome.tbl00791
-genome:Gene	PsbN	1:c78739-78611	GW17_> genome.tbl00801
-genome:Gene	PsbH	1:78842-79069	GW17_> genome.tbl00811
-genome:Gene	PetB	1:79997-80650	GW17_> genome.tbl00821
-genome:Gene	PetD	1:81534-82085	GW17_> genome.tbl00831
-genome:Gene	RpoA	1:c83296-82286	GW17_> genome.tbl00841
-genome:Gene	Rps11	1:c83780-83367	GW17_> genome.tbl00851
-genome:Gene	Rpl36	1:c84019-83909	GW17_> genome.tbl00861
-genome:Gene	InfA	1:c84365-84135	GW17_> genome.tbl00871
-genome:Gene	Rps8	1:c84880-84485	GW17_> genome.tbl00881
-genome:Gene	Rpl14	1:c85485-85120	GW17_> genome.tbl00891
-genome:Gene	Rpl16	1:c86016-85618	GW17_> genome.tbl00901
-genome:Gene	Rps3	1:c87858-87208	GW17_> genome.tbl00911
-genome:Gene	Rpl22	1:c88311-87931	GW17_> genome.tbl00921
-genome:Gene	Rps19	1:c88843-88568	GW17_> genome.tbl00931
-genome:Gene	Rpl2	1:c89562-89134	GW17_> genome.tbl00951
-genome:Gene	Rpl2	1:c90608-90222	GW17_> genome.tbl00961
-genome:Gene	Rpl23	1:c90914-90636	GW17_> genome.tbl00971
-genome:Gene	Ycf2	1:91277-98182	GW17_> genome.tbl00991
-genome:Gene	Ycf15	1:98300-98470	GW17_> genome.tbl01001
-genome:Gene	Ycf15	1:98445-98531	GW17_> genome.tbl01011
-genome:Gene	NdhB	1:c100633-99881	GW17_> genome.tbl01031
-genome:Gene	NdhB	1:c102110-101334	GW17_> genome.tbl01041
-genome:Gene	Rps7	1:c102882-102418	GW17_> genome.tbl01051
-genome:Gene	Rps12_3end	1:c103745-103494	GW17_> genome.tbl01061
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	Ycf68	1:107980-108252	GW17_> genome.tbl01111
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Ycf1	1:114546-120344	GW17_> genome.tbl01221
-genome:Gene	Rps15	1:120695-120997	GW17_> genome.tbl01231
-genome:Gene	NdhH	1:121105-122283	GW17_> genome.tbl01241
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
-genome:Gene	NdhF	1:c125618-123417	GW17_> genome.tbl01261
-genome:Gene	Rpl32	1:126410-126580	GW17_> genome.tbl01271
-genome:Gene	CcsA	1:127584-128573	GW17_> genome.tbl01291
-genome:Gene	NdhD	1:c130317-128815	GW17_> genome.tbl01301
-genome:Gene	PsaC	1:c130685-130443	GW17_> genome.tbl01311
-genome:Gene	NdhE	1:c131660-131358	GW17_> genome.tbl01321
-genome:Gene	NdhG	1:c132314-131787	GW17_> genome.tbl01331
-genome:Gene	NdhI	1:c133253-132714	GW17_> genome.tbl01341
-genome:Gene	NdhA	1:c133881-133345	GW17_> genome.tbl01351
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
-genome:Gene	NdhH	1:c136712-135534	GW17_> genome.tbl01381
-genome:Gene	Rps15	1:c137122-136820	GW17_> genome.tbl01391
-genome:Gene	Ycf1	1:c143271-137473	GW17_> genome.tbl01401
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
-genome:Gene	Ycf68	1:c149837-149565	GW17_> genome.tbl01511
-genome:Gene	Rps12_3end	1:154072-154323	GW17_> genome.tbl01551
-genome:Gene	Rps7	1:154935-155399	GW17_> genome.tbl01561
-genome:Gene	NdhB	1:155707-156483	GW17_> genome.tbl01571
-genome:Gene	NdhB	1:157184-157936	GW17_> genome.tbl01581
-genome:Gene	Ycf15	1:c159372-159286	GW17_> genome.tbl01601
-genome:Gene	Ycf15	1:c159517-159347	GW17_> genome.tbl01611
-genome:Gene	Ycf2	1:c166540-159635	GW17_> genome.tbl01621
-genome:Gene	Rpl23	1:166903-167181	GW17_> genome.tbl01641
-genome:Gene	Rpl2	1:167209-167595	GW17_> genome.tbl01651
-genome:Gene	Rpl2	1:168255-168683	GW17_> genome.tbl01661
+genome:Gene	PsbA	1:c1333-275	GW17_c00001
+genome:Gene	MatK	1:c3465-1939	GW17_c00011
+genome:Gene	Rps16	1:c5287-5075	GW17_c00031
+genome:Gene	PsbK	1:8237-8419	GW17_c00051
+genome:Gene	PsbI	1:8820-8972	GW17_c00061
+genome:Gene	AtpA	1:c12785-11244	GW17_c00101
+genome:Gene	AtpF	1:c13270-12863	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
+genome:Gene	AtpH	1:c14996-14754	GW17_c00131
+genome:Gene	AtpI	1:c16904-16164	GW17_c00141
+genome:Gene	Rps2	1:c17895-17191	GW17_c00151
+genome:Gene	RpoC2	1:c22266-18190	GW17_c00161
+genome:Gene	RpoC1	1:c24093-22459	GW17_c00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoB	1:c28476-25261	GW17_c00191
+genome:Gene	PetN	1:30523-30615	GW17_c00211
+genome:Gene	PsbM	1:c32073-31972	GW17_c00221
+genome:Gene	PsbD	1:35775-36833	GW17_c00281
+genome:Gene	PsbC	1:36745-38202	GW17_c00291
+genome:Gene	LhbA	1:38786-38971	GW17_c00311
+genome:Gene	Rps14	1:c40035-39736	GW17_c00341
+genome:Gene	PsaB	1:c42389-40188	GW17_c00351
+genome:Gene	PsaA	1:c44667-42418	GW17_c00361
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c47320-47189	GW17_c00391
+genome:Gene	Rps4	1:c48948-48346	GW17_c00411
+genome:Gene	NdhJ	1:c52411-51935	GW17_c00461
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53258	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56565	GW17_c00541
+genome:Gene	RbcL	1:58916-60367	GW17_c00551
+genome:Gene	AccD	1:61121-62740	GW17_c00561
+genome:Gene	PsaI	1:63303-63410	GW17_c00571
+genome:Gene	Ycf4	1:63765-64316	GW17_c00581
+genome:Gene	CemA	1:64969-65661	GW17_c00591
+genome:Gene	PetA	1:65886-66845	GW17_c00601
+genome:Gene	PsbJ	1:c67924-67805	GW17_c00611
+genome:Gene	PsbL	1:c68166-68053	GW17_c00621
+genome:Gene	PsbF	1:c68308-68192	GW17_c00631
+genome:Gene	PsbE	1:c68570-68322	GW17_c00641
+genome:Gene	PetL	1:70027-70119	GW17_c00651
+genome:Gene	PetG	1:70295-70405	GW17_c00661
+genome:Gene	PsaJ	1:71236-71361	GW17_c00701
+genome:Gene	Rpl33	1:71955-72152	GW17_c00711
+genome:Gene	Rps18	1:72324-72626	GW17_c00721
+genome:Gene	Rpl20	1:c73247-72897	GW17_c00731
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
+genome:Gene	ClpP	1:c76278-76210	GW17_c00771
+genome:Gene	Psi_psbT	1:76737-78254	GW17_c00781
+genome:Gene	PsbT	1:78433-78540	GW17_c00791
+genome:Gene	PsbN	1:c78739-78611	GW17_c00801
+genome:Gene	PsbH	1:78842-79069	GW17_c00811
+genome:Gene	PetB	1:79997-80650	GW17_c00821
+genome:Gene	PetD	1:81534-82085	GW17_c00831
+genome:Gene	RpoA	1:c83296-82286	GW17_c00841
+genome:Gene	Rps11	1:c83780-83367	GW17_c00851
+genome:Gene	Rpl36	1:c84019-83909	GW17_c00861
+genome:Gene	InfA	1:c84365-84135	GW17_c00871
+genome:Gene	Rps8	1:c84880-84485	GW17_c00881
+genome:Gene	Rpl14	1:c85485-85120	GW17_c00891
+genome:Gene	Rpl16	1:c86016-85618	GW17_c00901
+genome:Gene	Rps3	1:c87858-87208	GW17_c00911
+genome:Gene	Rpl22	1:c88311-87931	GW17_c00921
+genome:Gene	Rps19	1:c88843-88568	GW17_c00931
+genome:Gene	Rpl2	1:c89562-89134	GW17_c00951
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl23	1:c90914-90636	GW17_c00971
+genome:Gene	Ycf2	1:91277-98182	GW17_c00991
+genome:Gene	Ycf15	1:98300-98470	GW17_c01001
+genome:Gene	Ycf15	1:98445-98531	GW17_c01011
+genome:Gene	NdhB	1:c100633-99881	GW17_c01031
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
+genome:Gene	Rps7	1:c102882-102418	GW17_c01051
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
+genome:Gene	Ycf68	1:107980-108252	GW17_c01111
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
+genome:Gene	Ycf1	1:114546-120344	GW17_c01221
+genome:Gene	Rps15	1:120695-120997	GW17_c01231
+genome:Gene	NdhH	1:121105-122283	GW17_c01241
+genome:Gene	Orf188	1:122288-122851	GW17_c01251
+genome:Gene	NdhF	1:c125618-123417	GW17_c01261
+genome:Gene	Rpl32	1:126410-126580	GW17_c01271
+genome:Gene	CcsA	1:127584-128573	GW17_c01291
+genome:Gene	NdhD	1:c130317-128815	GW17_c01301
+genome:Gene	PsaC	1:c130685-130443	GW17_c01311
+genome:Gene	NdhE	1:c131660-131358	GW17_c01321
+genome:Gene	NdhG	1:c132314-131787	GW17_c01331
+genome:Gene	NdhI	1:c133253-132714	GW17_c01341
+genome:Gene	NdhA	1:c133881-133345	GW17_c01351
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	NdhH	1:c136712-135534	GW17_c01381
+genome:Gene	Rps15	1:c137122-136820	GW17_c01391
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
+genome:Gene	Orf56	1:148310-148474	GW17_c01471
+genome:Gene	Orf42	1:148675-148791	GW17_c01481
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
+genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
+genome:Gene	Rps7	1:154935-155399	GW17_c01561
+genome:Gene	NdhB	1:155707-156483	GW17_c01571
+genome:Gene	NdhB	1:157184-157936	GW17_c01581
+genome:Gene	Ycf15	1:c159372-159286	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf2	1:c166540-159635	GW17_c01621
+genome:Gene	Rpl23	1:166903-167181	GW17_c01641
+genome:Gene	Rpl2	1:167209-167595	GW17_c01651
+genome:Gene	Rpl2	1:168255-168683	GW17_c01661
 
 DiscRep_SUB:TEST_BAD_GENE_NAME::6 genes contain orf
-genome:Gene	Orf42	1:c109142-109026	GW17_> genome.tbl01141
-genome:Gene	Orf56	1:c109507-109343	GW17_> genome.tbl01151
-genome:Gene	Orf188	1:122288-122851	GW17_> genome.tbl01251
-genome:Gene	Orf188	1:c135529-134966	GW17_> genome.tbl01361
-genome:Gene	Orf56	1:148310-148474	GW17_> genome.tbl01471
-genome:Gene	Orf42	1:148675-148791	GW17_> genome.tbl01481
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
+genome:Gene	Orf188	1:122288-122851	GW17_c01251
+genome:Gene	Orf188	1:c135529-134966	GW17_c01361
+genome:Gene	Orf56	1:148310-148474	GW17_c01471
+genome:Gene	Orf42	1:148675-148791	GW17_c01481
 
 DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
 genome:1 (length 168843)
 
 DiscRep_ALL:FIND_OVERLAPPED_GENES::2 genes completely overlapped by other genes
-genome:Gene	Rps12	1:c103745-103506	GW17_> genome.tbl01071
-genome:Gene	NdhA	1:c135529-134978	GW17_> genome.tbl01371
+genome:Gene	Rps12	1:c103745-103506	GW17_c01071
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
 
 DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
 genome:1 (length 168843)

@@ -2457,7 +2457,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbA" ,
-                      locus-tag "GW17_> genome.tbl00001" } ,
+                      locus-tag "GW17_c00001" } ,
                   location
                     int {
                       from 274 ,
@@ -2473,7 +2473,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "MatK" ,
-                      locus-tag "GW17_> genome.tbl00011" } ,
+                      locus-tag "GW17_c00011" } ,
                   location
                     int {
                       from 1938 ,
@@ -2508,7 +2508,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps16" ,
-                      locus-tag "GW17_> genome.tbl00031" } ,
+                      locus-tag "GW17_c00031" } ,
                   location
                     int {
                       from 5074 ,
@@ -2543,7 +2543,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbK" ,
-                      locus-tag "GW17_> genome.tbl00051" } ,
+                      locus-tag "GW17_c00051" } ,
                   location
                     int {
                       from 8236 ,
@@ -2559,7 +2559,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbI" ,
-                      locus-tag "GW17_> genome.tbl00061" } ,
+                      locus-tag "GW17_c00061" } ,
                   location
                     int {
                       from 8819 ,
@@ -2632,7 +2632,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpA" ,
-                      locus-tag "GW17_> genome.tbl00101" } ,
+                      locus-tag "GW17_c00101" } ,
                   location
                     int {
                       from 11243 ,
@@ -2648,7 +2648,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpF" ,
-                      locus-tag "GW17_> genome.tbl00111" } ,
+                      locus-tag "GW17_c00111" } ,
                   location
                     int {
                       from 12862 ,
@@ -2664,7 +2664,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpF" ,
-                      locus-tag "GW17_> genome.tbl00121" } ,
+                      locus-tag "GW17_c00121" } ,
                   location
                     int {
                       from 14113 ,
@@ -2680,7 +2680,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpH" ,
-                      locus-tag "GW17_> genome.tbl00131" } ,
+                      locus-tag "GW17_c00131" } ,
                   location
                     int {
                       from 14753 ,
@@ -2696,7 +2696,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpI" ,
-                      locus-tag "GW17_> genome.tbl00141" } ,
+                      locus-tag "GW17_c00141" } ,
                   location
                     int {
                       from 16163 ,
@@ -2712,7 +2712,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps2" ,
-                      locus-tag "GW17_> genome.tbl00151" } ,
+                      locus-tag "GW17_c00151" } ,
                   location
                     int {
                       from 17190 ,
@@ -2728,7 +2728,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RpoC2" ,
-                      locus-tag "GW17_> genome.tbl00161" } ,
+                      locus-tag "GW17_c00161" } ,
                   location
                     int {
                       from 18189 ,
@@ -2744,7 +2744,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RpoC1" ,
-                      locus-tag "GW17_> genome.tbl00171" } ,
+                      locus-tag "GW17_c00171" } ,
                   location
                     int {
                       from 22458 ,
@@ -2760,7 +2760,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RpoC1" ,
-                      locus-tag "GW17_> genome.tbl00181" } ,
+                      locus-tag "GW17_c00181" } ,
                   location
                     int {
                       from 24790 ,
@@ -2776,7 +2776,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RpoB" ,
-                      locus-tag "GW17_> genome.tbl00191" } ,
+                      locus-tag "GW17_c00191" } ,
                   location
                     int {
                       from 25260 ,
@@ -2811,7 +2811,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetN" ,
-                      locus-tag "GW17_> genome.tbl00211" } ,
+                      locus-tag "GW17_c00211" } ,
                   location
                     int {
                       from 30522 ,
@@ -2827,7 +2827,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbM" ,
-                      locus-tag "GW17_> genome.tbl00221" } ,
+                      locus-tag "GW17_c00221" } ,
                   location
                     int {
                       from 31971 ,
@@ -2940,7 +2940,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbD" ,
-                      locus-tag "GW17_> genome.tbl00281" } ,
+                      locus-tag "GW17_c00281" } ,
                   location
                     int {
                       from 35774 ,
@@ -2956,7 +2956,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbC" ,
-                      locus-tag "GW17_> genome.tbl00291" } ,
+                      locus-tag "GW17_c00291" } ,
                   location
                     int {
                       from 36744 ,
@@ -2991,7 +2991,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "LhbA" ,
-                      locus-tag "GW17_> genome.tbl00311" } ,
+                      locus-tag "GW17_c00311" } ,
                   location
                     int {
                       from 38785 ,
@@ -3045,7 +3045,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps14" ,
-                      locus-tag "GW17_> genome.tbl00341" } ,
+                      locus-tag "GW17_c00341" } ,
                   location
                     int {
                       from 39735 ,
@@ -3061,7 +3061,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsaB" ,
-                      locus-tag "GW17_> genome.tbl00351" } ,
+                      locus-tag "GW17_c00351" } ,
                   location
                     int {
                       from 40187 ,
@@ -3077,7 +3077,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsaA" ,
-                      locus-tag "GW17_> genome.tbl00361" } ,
+                      locus-tag "GW17_c00361" } ,
                   location
                     int {
                       from 42417 ,
@@ -3093,7 +3093,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf3" ,
-                      locus-tag "GW17_> genome.tbl00371" } ,
+                      locus-tag "GW17_c00371" } ,
                   location
                     int {
                       from 45299 ,
@@ -3109,7 +3109,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf3" ,
-                      locus-tag "GW17_> genome.tbl00381" } ,
+                      locus-tag "GW17_c00381" } ,
                   location
                     int {
                       from 46227 ,
@@ -3125,7 +3125,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf3" ,
-                      locus-tag "GW17_> genome.tbl00391" } ,
+                      locus-tag "GW17_c00391" } ,
                   location
                     int {
                       from 47188 ,
@@ -3160,7 +3160,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps4" ,
-                      locus-tag "GW17_> genome.tbl00411" } ,
+                      locus-tag "GW17_c00411" } ,
                   location
                     int {
                       from 48345 ,
@@ -3252,7 +3252,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhJ" ,
-                      locus-tag "GW17_> genome.tbl00461" } ,
+                      locus-tag "GW17_c00461" } ,
                   location
                     int {
                       from 51934 ,
@@ -3268,7 +3268,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhK" ,
-                      locus-tag "GW17_> genome.tbl00471" } ,
+                      locus-tag "GW17_c00471" } ,
                   location
                     int {
                       from 52523 ,
@@ -3284,7 +3284,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhC" ,
-                      locus-tag "GW17_> genome.tbl00481" } ,
+                      locus-tag "GW17_c00481" } ,
                   location
                     int {
                       from 53257 ,
@@ -3376,7 +3376,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpE" ,
-                      locus-tag "GW17_> genome.tbl00531" } ,
+                      locus-tag "GW17_c00531" } ,
                   location
                     int {
                       from 56163 ,
@@ -3392,7 +3392,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AtpB" ,
-                      locus-tag "GW17_> genome.tbl00541" } ,
+                      locus-tag "GW17_c00541" } ,
                   location
                     int {
                       from 56564 ,
@@ -3408,7 +3408,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RbcL" ,
-                      locus-tag "GW17_> genome.tbl00551" } ,
+                      locus-tag "GW17_c00551" } ,
                   location
                     int {
                       from 58915 ,
@@ -3424,7 +3424,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "AccD" ,
-                      locus-tag "GW17_> genome.tbl00561" } ,
+                      locus-tag "GW17_c00561" } ,
                   location
                     int {
                       from 61120 ,
@@ -3440,7 +3440,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsaI" ,
-                      locus-tag "GW17_> genome.tbl00571" } ,
+                      locus-tag "GW17_c00571" } ,
                   location
                     int {
                       from 63302 ,
@@ -3456,7 +3456,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf4" ,
-                      locus-tag "GW17_> genome.tbl00581" } ,
+                      locus-tag "GW17_c00581" } ,
                   location
                     int {
                       from 63764 ,
@@ -3472,7 +3472,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "CemA" ,
-                      locus-tag "GW17_> genome.tbl00591" } ,
+                      locus-tag "GW17_c00591" } ,
                   location
                     int {
                       from 64968 ,
@@ -3488,7 +3488,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetA" ,
-                      locus-tag "GW17_> genome.tbl00601" } ,
+                      locus-tag "GW17_c00601" } ,
                   location
                     int {
                       from 65885 ,
@@ -3504,7 +3504,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbJ" ,
-                      locus-tag "GW17_> genome.tbl00611" } ,
+                      locus-tag "GW17_c00611" } ,
                   location
                     int {
                       from 67804 ,
@@ -3520,7 +3520,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbL" ,
-                      locus-tag "GW17_> genome.tbl00621" } ,
+                      locus-tag "GW17_c00621" } ,
                   location
                     int {
                       from 68052 ,
@@ -3536,7 +3536,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbF" ,
-                      locus-tag "GW17_> genome.tbl00631" } ,
+                      locus-tag "GW17_c00631" } ,
                   location
                     int {
                       from 68191 ,
@@ -3552,7 +3552,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbE" ,
-                      locus-tag "GW17_> genome.tbl00641" } ,
+                      locus-tag "GW17_c00641" } ,
                   location
                     int {
                       from 68321 ,
@@ -3568,7 +3568,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetL" ,
-                      locus-tag "GW17_> genome.tbl00651" } ,
+                      locus-tag "GW17_c00651" } ,
                   location
                     int {
                       from 70026 ,
@@ -3584,7 +3584,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetG" ,
-                      locus-tag "GW17_> genome.tbl00661" } ,
+                      locus-tag "GW17_c00661" } ,
                   location
                     int {
                       from 70294 ,
@@ -3657,7 +3657,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsaJ" ,
-                      locus-tag "GW17_> genome.tbl00701" } ,
+                      locus-tag "GW17_c00701" } ,
                   location
                     int {
                       from 71235 ,
@@ -3673,7 +3673,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl33" ,
-                      locus-tag "GW17_> genome.tbl00711" } ,
+                      locus-tag "GW17_c00711" } ,
                   location
                     int {
                       from 71954 ,
@@ -3689,7 +3689,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps18" ,
-                      locus-tag "GW17_> genome.tbl00721" } ,
+                      locus-tag "GW17_c00721" } ,
                   location
                     int {
                       from 72323 ,
@@ -3705,7 +3705,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl20" ,
-                      locus-tag "GW17_> genome.tbl00731" } ,
+                      locus-tag "GW17_c00731" } ,
                   location
                     int {
                       from 72896 ,
@@ -3721,7 +3721,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps12" ,
-                      locus-tag "GW17_> genome.tbl00741" } ,
+                      locus-tag "GW17_c00741" } ,
                   location
                     int {
                       from 73954 ,
@@ -3737,7 +3737,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "ClpP" ,
-                      locus-tag "GW17_> genome.tbl00751" } ,
+                      locus-tag "GW17_c00751" } ,
                   location
                     int {
                       from 74221 ,
@@ -3753,7 +3753,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "ClpP" ,
-                      locus-tag "GW17_> genome.tbl00761" } ,
+                      locus-tag "GW17_c00761" } ,
                   location
                     int {
                       from 75113 ,
@@ -3769,7 +3769,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "ClpP" ,
-                      locus-tag "GW17_> genome.tbl00771" } ,
+                      locus-tag "GW17_c00771" } ,
                   location
                     int {
                       from 76209 ,
@@ -3785,7 +3785,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Psi_psbT" ,
-                      locus-tag "GW17_> genome.tbl00781" } ,
+                      locus-tag "GW17_c00781" } ,
                   location
                     int {
                       from 76736 ,
@@ -3801,7 +3801,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbT" ,
-                      locus-tag "GW17_> genome.tbl00791" } ,
+                      locus-tag "GW17_c00791" } ,
                   location
                     int {
                       from 78432 ,
@@ -3817,7 +3817,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbN" ,
-                      locus-tag "GW17_> genome.tbl00801" } ,
+                      locus-tag "GW17_c00801" } ,
                   location
                     int {
                       from 78610 ,
@@ -3833,7 +3833,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsbH" ,
-                      locus-tag "GW17_> genome.tbl00811" } ,
+                      locus-tag "GW17_c00811" } ,
                   location
                     int {
                       from 78841 ,
@@ -3849,7 +3849,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetB" ,
-                      locus-tag "GW17_> genome.tbl00821" } ,
+                      locus-tag "GW17_c00821" } ,
                   location
                     int {
                       from 79996 ,
@@ -3865,7 +3865,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PetD" ,
-                      locus-tag "GW17_> genome.tbl00831" } ,
+                      locus-tag "GW17_c00831" } ,
                   location
                     int {
                       from 81533 ,
@@ -3881,7 +3881,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "RpoA" ,
-                      locus-tag "GW17_> genome.tbl00841" } ,
+                      locus-tag "GW17_c00841" } ,
                   location
                     int {
                       from 82285 ,
@@ -3897,7 +3897,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps11" ,
-                      locus-tag "GW17_> genome.tbl00851" } ,
+                      locus-tag "GW17_c00851" } ,
                   location
                     int {
                       from 83366 ,
@@ -3913,7 +3913,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl36" ,
-                      locus-tag "GW17_> genome.tbl00861" } ,
+                      locus-tag "GW17_c00861" } ,
                   location
                     int {
                       from 83908 ,
@@ -3929,7 +3929,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "InfA" ,
-                      locus-tag "GW17_> genome.tbl00871" } ,
+                      locus-tag "GW17_c00871" } ,
                   location
                     int {
                       from 84134 ,
@@ -3945,7 +3945,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps8" ,
-                      locus-tag "GW17_> genome.tbl00881" } ,
+                      locus-tag "GW17_c00881" } ,
                   location
                     int {
                       from 84484 ,
@@ -3961,7 +3961,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl14" ,
-                      locus-tag "GW17_> genome.tbl00891" } ,
+                      locus-tag "GW17_c00891" } ,
                   location
                     int {
                       from 85119 ,
@@ -3977,7 +3977,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl16" ,
-                      locus-tag "GW17_> genome.tbl00901" } ,
+                      locus-tag "GW17_c00901" } ,
                   location
                     int {
                       from 85617 ,
@@ -3993,7 +3993,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps3" ,
-                      locus-tag "GW17_> genome.tbl00911" } ,
+                      locus-tag "GW17_c00911" } ,
                   location
                     int {
                       from 87207 ,
@@ -4009,7 +4009,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl22" ,
-                      locus-tag "GW17_> genome.tbl00921" } ,
+                      locus-tag "GW17_c00921" } ,
                   location
                     int {
                       from 87930 ,
@@ -4025,7 +4025,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps19" ,
-                      locus-tag "GW17_> genome.tbl00931" } ,
+                      locus-tag "GW17_c00931" } ,
                   location
                     int {
                       from 88567 ,
@@ -4060,7 +4060,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl2" ,
-                      locus-tag "GW17_> genome.tbl00951" } ,
+                      locus-tag "GW17_c00951" } ,
                   location
                     int {
                       from 89133 ,
@@ -4076,7 +4076,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl2" ,
-                      locus-tag "GW17_> genome.tbl00961" } ,
+                      locus-tag "GW17_c00961" } ,
                   location
                     int {
                       from 90221 ,
@@ -4092,7 +4092,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl23" ,
-                      locus-tag "GW17_> genome.tbl00971" } ,
+                      locus-tag "GW17_c00971" } ,
                   location
                     int {
                       from 90635 ,
@@ -4127,7 +4127,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf2" ,
-                      locus-tag "GW17_> genome.tbl00991" } ,
+                      locus-tag "GW17_c00991" } ,
                   location
                     int {
                       from 91276 ,
@@ -4143,7 +4143,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf15" ,
-                      locus-tag "GW17_> genome.tbl01001" } ,
+                      locus-tag "GW17_c01001" } ,
                   location
                     int {
                       from 98299 ,
@@ -4159,7 +4159,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf15" ,
-                      locus-tag "GW17_> genome.tbl01011" } ,
+                      locus-tag "GW17_c01011" } ,
                   location
                     int {
                       from 98444 ,
@@ -4194,7 +4194,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhB" ,
-                      locus-tag "GW17_> genome.tbl01031" } ,
+                      locus-tag "GW17_c01031" } ,
                   location
                     int {
                       from 99880 ,
@@ -4210,7 +4210,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhB" ,
-                      locus-tag "GW17_> genome.tbl01041" } ,
+                      locus-tag "GW17_c01041" } ,
                   location
                     int {
                       from 101333 ,
@@ -4226,7 +4226,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps7" ,
-                      locus-tag "GW17_> genome.tbl01051" } ,
+                      locus-tag "GW17_c01051" } ,
                   location
                     int {
                       from 102417 ,
@@ -4242,7 +4242,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps12_3end" ,
-                      locus-tag "GW17_> genome.tbl01061" } ,
+                      locus-tag "GW17_c01061" } ,
                   location
                     int {
                       from 103493 ,
@@ -4258,7 +4258,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps12" ,
-                      locus-tag "GW17_> genome.tbl01071" } ,
+                      locus-tag "GW17_c01071" } ,
                   location
                     int {
                       from 103505 ,
@@ -4329,7 +4329,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf68" ,
-                      locus-tag "GW17_> genome.tbl01111" } ,
+                      locus-tag "GW17_c01111" } ,
                   location
                     int {
                       from 107979 ,
@@ -4383,7 +4383,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf42" ,
-                      locus-tag "GW17_> genome.tbl01141" } ,
+                      locus-tag "GW17_c01141" } ,
                   location
                     int {
                       from 109025 ,
@@ -4399,7 +4399,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf56" ,
-                      locus-tag "GW17_> genome.tbl01151" } ,
+                      locus-tag "GW17_c01151" } ,
                   location
                     int {
                       from 109342 ,
@@ -4523,7 +4523,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf1" ,
-                      locus-tag "GW17_> genome.tbl01221" } ,
+                      locus-tag "GW17_c01221" } ,
                   location
                     int {
                       from 114545 ,
@@ -4539,7 +4539,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps15" ,
-                      locus-tag "GW17_> genome.tbl01231" } ,
+                      locus-tag "GW17_c01231" } ,
                   location
                     int {
                       from 120694 ,
@@ -4555,7 +4555,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhH" ,
-                      locus-tag "GW17_> genome.tbl01241" } ,
+                      locus-tag "GW17_c01241" } ,
                   location
                     int {
                       from 121104 ,
@@ -4571,7 +4571,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf188" ,
-                      locus-tag "GW17_> genome.tbl01251" } ,
+                      locus-tag "GW17_c01251" } ,
                   location
                     int {
                       from 122287 ,
@@ -4587,7 +4587,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhF" ,
-                      locus-tag "GW17_> genome.tbl01261" } ,
+                      locus-tag "GW17_c01261" } ,
                   location
                     int {
                       from 123416 ,
@@ -4603,7 +4603,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl32" ,
-                      locus-tag "GW17_> genome.tbl01271" } ,
+                      locus-tag "GW17_c01271" } ,
                   location
                     int {
                       from 126409 ,
@@ -4638,7 +4638,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "CcsA" ,
-                      locus-tag "GW17_> genome.tbl01291" } ,
+                      locus-tag "GW17_c01291" } ,
                   location
                     int {
                       from 127583 ,
@@ -4654,7 +4654,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhD" ,
-                      locus-tag "GW17_> genome.tbl01301" } ,
+                      locus-tag "GW17_c01301" } ,
                   location
                     int {
                       from 128814 ,
@@ -4670,7 +4670,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "PsaC" ,
-                      locus-tag "GW17_> genome.tbl01311" } ,
+                      locus-tag "GW17_c01311" } ,
                   location
                     int {
                       from 130442 ,
@@ -4686,7 +4686,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhE" ,
-                      locus-tag "GW17_> genome.tbl01321" } ,
+                      locus-tag "GW17_c01321" } ,
                   location
                     int {
                       from 131357 ,
@@ -4702,7 +4702,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhG" ,
-                      locus-tag "GW17_> genome.tbl01331" } ,
+                      locus-tag "GW17_c01331" } ,
                   location
                     int {
                       from 131786 ,
@@ -4718,7 +4718,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhI" ,
-                      locus-tag "GW17_> genome.tbl01341" } ,
+                      locus-tag "GW17_c01341" } ,
                   location
                     int {
                       from 132713 ,
@@ -4734,7 +4734,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhA" ,
-                      locus-tag "GW17_> genome.tbl01351" } ,
+                      locus-tag "GW17_c01351" } ,
                   location
                     int {
                       from 133344 ,
@@ -4750,7 +4750,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf188" ,
-                      locus-tag "GW17_> genome.tbl01361" } ,
+                      locus-tag "GW17_c01361" } ,
                   location
                     int {
                       from 134965 ,
@@ -4766,7 +4766,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhA" ,
-                      locus-tag "GW17_> genome.tbl01371" } ,
+                      locus-tag "GW17_c01371" } ,
                   location
                     int {
                       from 134977 ,
@@ -4782,7 +4782,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhH" ,
-                      locus-tag "GW17_> genome.tbl01381" } ,
+                      locus-tag "GW17_c01381" } ,
                   location
                     int {
                       from 135533 ,
@@ -4798,7 +4798,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps15" ,
-                      locus-tag "GW17_> genome.tbl01391" } ,
+                      locus-tag "GW17_c01391" } ,
                   location
                     int {
                       from 136819 ,
@@ -4814,7 +4814,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf1" ,
-                      locus-tag "GW17_> genome.tbl01401" } ,
+                      locus-tag "GW17_c01401" } ,
                   location
                     int {
                       from 137472 ,
@@ -4938,7 +4938,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf56" ,
-                      locus-tag "GW17_> genome.tbl01471" } ,
+                      locus-tag "GW17_c01471" } ,
                   location
                     int {
                       from 148309 ,
@@ -4954,7 +4954,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Orf42" ,
-                      locus-tag "GW17_> genome.tbl01481" } ,
+                      locus-tag "GW17_c01481" } ,
                   location
                     int {
                       from 148674 ,
@@ -5008,7 +5008,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf68" ,
-                      locus-tag "GW17_> genome.tbl01511" } ,
+                      locus-tag "GW17_c01511" } ,
                   location
                     int {
                       from 149564 ,
@@ -5079,7 +5079,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps12_3end" ,
-                      locus-tag "GW17_> genome.tbl01551" } ,
+                      locus-tag "GW17_c01551" } ,
                   location
                     int {
                       from 154071 ,
@@ -5095,7 +5095,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rps7" ,
-                      locus-tag "GW17_> genome.tbl01561" } ,
+                      locus-tag "GW17_c01561" } ,
                   location
                     int {
                       from 154934 ,
@@ -5111,7 +5111,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhB" ,
-                      locus-tag "GW17_> genome.tbl01571" } ,
+                      locus-tag "GW17_c01571" } ,
                   location
                     int {
                       from 155706 ,
@@ -5127,7 +5127,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "NdhB" ,
-                      locus-tag "GW17_> genome.tbl01581" } ,
+                      locus-tag "GW17_c01581" } ,
                   location
                     int {
                       from 157183 ,
@@ -5162,7 +5162,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf15" ,
-                      locus-tag "GW17_> genome.tbl01601" } ,
+                      locus-tag "GW17_c01601" } ,
                   location
                     int {
                       from 159285 ,
@@ -5178,7 +5178,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf15" ,
-                      locus-tag "GW17_> genome.tbl01611" } ,
+                      locus-tag "GW17_c01611" } ,
                   location
                     int {
                       from 159346 ,
@@ -5194,7 +5194,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Ycf2" ,
-                      locus-tag "GW17_> genome.tbl01621" } ,
+                      locus-tag "GW17_c01621" } ,
                   location
                     int {
                       from 159634 ,
@@ -5229,7 +5229,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl23" ,
-                      locus-tag "GW17_> genome.tbl01641" } ,
+                      locus-tag "GW17_c01641" } ,
                   location
                     int {
                       from 166902 ,
@@ -5245,7 +5245,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl2" ,
-                      locus-tag "GW17_> genome.tbl01651" } ,
+                      locus-tag "GW17_c01651" } ,
                   location
                     int {
                       from 167208 ,
@@ -5261,7 +5261,7 @@ TCCACTGCCTTGATCCACTTGGCTACATCCGCCCCCTTTTCTAGCTAAAGGATTTTCTTTTTCTAGCTAAAG" } ,
                   data
                     gene {
                       locus "Rpl2" ,
-                      locus-tag "GW17_> genome.tbl01661" } ,
+                      locus-tag "GW17_c01661" } ,
                   location
                     int {
                       from 168254 ,

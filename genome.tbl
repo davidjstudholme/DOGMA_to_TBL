@@ -3,23 +3,23 @@
 			PBARC	12345
 1333	275	gene
 			gene	PsbA
-			locus_tag	GW17_> genome.tbl00001
+			locus_tag	GW17_c00001
 3465	1939	gene
 			gene	MatK
-			locus_tag	GW17_> genome.tbl00011
+			locus_tag	GW17_c00011
 4331	4295	tRNA
 			product	tRNA-Lysine
 5287	5075	gene
 			gene	Rps16
-			locus_tag	GW17_> genome.tbl00031
+			locus_tag	GW17_c00031
 7877	7805	tRNA
 			product	tRNA-Glutamine
 8237	8419	gene
 			gene	PsbK
-			locus_tag	GW17_> genome.tbl00051
+			locus_tag	GW17_c00051
 8820	8972	gene
 			gene	PsbI
-			locus_tag	GW17_> genome.tbl00061
+			locus_tag	GW17_c00061
 9198	9111	tRNA
 			product	tRNA-Serine
 10850	10886	tRNA
@@ -28,42 +28,42 @@
 			product	tRNA-Arginine
 12785	11244	gene
 			gene	AtpA
-			locus_tag	GW17_> genome.tbl00101
+			locus_tag	GW17_c00101
 13270	12863	gene
 			gene	AtpF
-			locus_tag	GW17_> genome.tbl00111
+			locus_tag	GW17_c00111
 14257	14114	gene
 			gene	AtpF
-			locus_tag	GW17_> genome.tbl00121
+			locus_tag	GW17_c00121
 14996	14754	gene
 			gene	AtpH
-			locus_tag	GW17_> genome.tbl00131
+			locus_tag	GW17_c00131
 16904	16164	gene
 			gene	AtpI
-			locus_tag	GW17_> genome.tbl00141
+			locus_tag	GW17_c00141
 17895	17191	gene
 			gene	Rps2
-			locus_tag	GW17_> genome.tbl00151
+			locus_tag	GW17_c00151
 22266	18190	gene
 			gene	RpoC2
-			locus_tag	GW17_> genome.tbl00161
+			locus_tag	GW17_c00161
 24093	22459	gene
 			gene	RpoC1
-			locus_tag	GW17_> genome.tbl00171
+			locus_tag	GW17_c00171
 25231	24791	gene
 			gene	RpoC1
-			locus_tag	GW17_> genome.tbl00181
+			locus_tag	GW17_c00181
 28476	25261	gene
 			gene	RpoB
-			locus_tag	GW17_> genome.tbl00191
+			locus_tag	GW17_c00191
 29515	29595	tRNA
 			product	tRNA-Cysteine
 30523	30615	gene
 			gene	PetN
-			locus_tag	GW17_> genome.tbl00211
+			locus_tag	GW17_c00211
 32073	31972	gene
 			gene	PsbM
-			locus_tag	GW17_> genome.tbl00221
+			locus_tag	GW17_c00221
 33213	33140	tRNA
 			product	tRNA-Aspartic Acid
 33699	33616	tRNA
@@ -76,42 +76,42 @@
 			product	tRNA-Methionine
 35775	36833	gene
 			gene	PsbD
-			locus_tag	GW17_> genome.tbl00281
+			locus_tag	GW17_c00281
 36745	38202	gene
 			gene	PsbC
-			locus_tag	GW17_> genome.tbl00291
+			locus_tag	GW17_c00291
 38444	38353	tRNA
 			product	tRNA-Serine
 38786	38971	gene
 			gene	LhbA
-			locus_tag	GW17_> genome.tbl00311
+			locus_tag	GW17_c00311
 39208	39278	tRNA
 			product	tRNA-Glycine
 39567	39494	tRNA
 			product	tRNA-Methionine
 40035	39736	gene
 			gene	Rps14
-			locus_tag	GW17_> genome.tbl00341
+			locus_tag	GW17_c00341
 42389	40188	gene
 			gene	PsaB
-			locus_tag	GW17_> genome.tbl00351
+			locus_tag	GW17_c00351
 44667	42418	gene
 			gene	PsaA
-			locus_tag	GW17_> genome.tbl00361
+			locus_tag	GW17_c00361
 45446	45300	gene
 			gene	Ycf3
-			locus_tag	GW17_> genome.tbl00371
+			locus_tag	GW17_c00371
 46455	46228	gene
 			gene	Ycf3
-			locus_tag	GW17_> genome.tbl00381
+			locus_tag	GW17_c00381
 47320	47189	gene
 			gene	Ycf3
-			locus_tag	GW17_> genome.tbl00391
+			locus_tag	GW17_c00391
 47963	48049	tRNA
 			product	tRNA-Serine
 48948	48346	gene
 			gene	Rps4
-			locus_tag	GW17_> genome.tbl00411
+			locus_tag	GW17_c00411
 49345	49273	tRNA
 			product	tRNA-Threonine
 50239	50275	tRNA
@@ -122,13 +122,13 @@
 			product	tRNA-Phenylalanine
 52411	51935	gene
 			gene	NdhJ
-			locus_tag	GW17_> genome.tbl00461
+			locus_tag	GW17_c00461
 53375	52524	gene
 			gene	NdhK
-			locus_tag	GW17_> genome.tbl00471
+			locus_tag	GW17_c00471
 53617	53258	gene
 			gene	NdhC
-			locus_tag	GW17_> genome.tbl00481
+			locus_tag	GW17_c00481
 55098	55062	tRNA
 			product	tRNA-Valine
 55728	55691	tRNA
@@ -139,46 +139,46 @@
 			product	tRNA-Threonine
 56565	56164	gene
 			gene	AtpE
-			locus_tag	GW17_> genome.tbl00531
+			locus_tag	GW17_c00531
 58058	56565	gene
 			gene	AtpB
-			locus_tag	GW17_> genome.tbl00541
+			locus_tag	GW17_c00541
 58916	60367	gene
 			gene	RbcL
-			locus_tag	GW17_> genome.tbl00551
+			locus_tag	GW17_c00551
 61121	62740	gene
 			gene	AccD
-			locus_tag	GW17_> genome.tbl00561
+			locus_tag	GW17_c00561
 63303	63410	gene
 			gene	PsaI
-			locus_tag	GW17_> genome.tbl00571
+			locus_tag	GW17_c00571
 63765	64316	gene
 			gene	Ycf4
-			locus_tag	GW17_> genome.tbl00581
+			locus_tag	GW17_c00581
 64969	65661	gene
 			gene	CemA
-			locus_tag	GW17_> genome.tbl00591
+			locus_tag	GW17_c00591
 65886	66845	gene
 			gene	PetA
-			locus_tag	GW17_> genome.tbl00601
+			locus_tag	GW17_c00601
 67924	67805	gene
 			gene	PsbJ
-			locus_tag	GW17_> genome.tbl00611
+			locus_tag	GW17_c00611
 68166	68053	gene
 			gene	PsbL
-			locus_tag	GW17_> genome.tbl00621
+			locus_tag	GW17_c00621
 68308	68192	gene
 			gene	PsbF
-			locus_tag	GW17_> genome.tbl00631
+			locus_tag	GW17_c00631
 68570	68322	gene
 			gene	PsbE
-			locus_tag	GW17_> genome.tbl00641
+			locus_tag	GW17_c00641
 70027	70119	gene
 			gene	PetL
-			locus_tag	GW17_> genome.tbl00651
+			locus_tag	GW17_c00651
 70295	70405	gene
 			gene	PetG
-			locus_tag	GW17_> genome.tbl00661
+			locus_tag	GW17_c00661
 70631	70558	tRNA
 			product	tRNA-Tryptophan
 70869	70796	tRNA
@@ -187,115 +187,115 @@
 			product	tRNA-Proline
 71236	71361	gene
 			gene	PsaJ
-			locus_tag	GW17_> genome.tbl00701
+			locus_tag	GW17_c00701
 71955	72152	gene
 			gene	Rpl33
-			locus_tag	GW17_> genome.tbl00711
+			locus_tag	GW17_c00711
 72324	72626	gene
 			gene	Rps18
-			locus_tag	GW17_> genome.tbl00721
+			locus_tag	GW17_c00721
 73247	72897	gene
 			gene	Rpl20
-			locus_tag	GW17_> genome.tbl00731
+			locus_tag	GW17_c00731
 74068	73955	gene
 			gene	Rps12
-			locus_tag	GW17_> genome.tbl00741
+			locus_tag	GW17_c00741
 74470	74222	gene
 			gene	ClpP
-			locus_tag	GW17_> genome.tbl00751
+			locus_tag	GW17_c00751
 75404	75114	gene
 			gene	ClpP
-			locus_tag	GW17_> genome.tbl00761
+			locus_tag	GW17_c00761
 76278	76210	gene
 			gene	ClpP
-			locus_tag	GW17_> genome.tbl00771
+			locus_tag	GW17_c00771
 76737	78254	gene
 			gene	Psi_psbT
-			locus_tag	GW17_> genome.tbl00781
+			locus_tag	GW17_c00781
 78433	78540	gene
 			gene	PsbT
-			locus_tag	GW17_> genome.tbl00791
+			locus_tag	GW17_c00791
 78739	78611	gene
 			gene	PsbN
-			locus_tag	GW17_> genome.tbl00801
+			locus_tag	GW17_c00801
 78842	79069	gene
 			gene	PsbH
-			locus_tag	GW17_> genome.tbl00811
+			locus_tag	GW17_c00811
 79997	80650	gene
 			gene	PetB
-			locus_tag	GW17_> genome.tbl00821
+			locus_tag	GW17_c00821
 81534	82085	gene
 			gene	PetD
-			locus_tag	GW17_> genome.tbl00831
+			locus_tag	GW17_c00831
 83296	82286	gene
 			gene	RpoA
-			locus_tag	GW17_> genome.tbl00841
+			locus_tag	GW17_c00841
 83780	83367	gene
 			gene	Rps11
-			locus_tag	GW17_> genome.tbl00851
+			locus_tag	GW17_c00851
 84019	83909	gene
 			gene	Rpl36
-			locus_tag	GW17_> genome.tbl00861
+			locus_tag	GW17_c00861
 84365	84135	gene
 			gene	InfA
-			locus_tag	GW17_> genome.tbl00871
+			locus_tag	GW17_c00871
 84880	84485	gene
 			gene	Rps8
-			locus_tag	GW17_> genome.tbl00881
+			locus_tag	GW17_c00881
 85485	85120	gene
 			gene	Rpl14
-			locus_tag	GW17_> genome.tbl00891
+			locus_tag	GW17_c00891
 86016	85618	gene
 			gene	Rpl16
-			locus_tag	GW17_> genome.tbl00901
+			locus_tag	GW17_c00901
 87858	87208	gene
 			gene	Rps3
-			locus_tag	GW17_> genome.tbl00911
+			locus_tag	GW17_c00911
 88311	87931	gene
 			gene	Rpl22
-			locus_tag	GW17_> genome.tbl00921
+			locus_tag	GW17_c00921
 88843	88568	gene
 			gene	Rps19
-			locus_tag	GW17_> genome.tbl00931
+			locus_tag	GW17_c00931
 89013	89087	tRNA
 			product	tRNA-Histidine
 89562	89134	gene
 			gene	Rpl2
-			locus_tag	GW17_> genome.tbl00951
+			locus_tag	GW17_c00951
 90608	90222	gene
 			gene	Rpl2
-			locus_tag	GW17_> genome.tbl00961
+			locus_tag	GW17_c00961
 90914	90636	gene
 			gene	Rpl23
-			locus_tag	GW17_> genome.tbl00971
+			locus_tag	GW17_c00971
 91152	91079	tRNA
 			product	tRNA-Isoleucine
 91277	98182	gene
 			gene	Ycf2
-			locus_tag	GW17_> genome.tbl00991
+			locus_tag	GW17_c00991
 98300	98470	gene
 			gene	Ycf15
-			locus_tag	GW17_> genome.tbl01001
+			locus_tag	GW17_c01001
 98445	98531	gene
 			gene	Ycf15
-			locus_tag	GW17_> genome.tbl01011
+			locus_tag	GW17_c01011
 99310	99230	tRNA
 			product	tRNA-Leucine
 100633	99881	gene
 			gene	NdhB
-			locus_tag	GW17_> genome.tbl01031
+			locus_tag	GW17_c01031
 102110	101334	gene
 			gene	NdhB
-			locus_tag	GW17_> genome.tbl01041
+			locus_tag	GW17_c01041
 102882	102418	gene
 			gene	Rps7
-			locus_tag	GW17_> genome.tbl01051
+			locus_tag	GW17_c01051
 103745	103494	gene
 			gene	Rps12_3end
-			locus_tag	GW17_> genome.tbl01061
+			locus_tag	GW17_c01061
 103745	103506	gene
 			gene	Rps12
-			locus_tag	GW17_> genome.tbl01071
+			locus_tag	GW17_c01071
 105675	105746	tRNA
 			product	tRNA-Valine
 105974	107464	rRNA
@@ -304,17 +304,17 @@
 			product	tRNA-Isoleucine
 107980	108252	gene
 			gene	Ycf68
-			locus_tag	GW17_> genome.tbl01111
+			locus_tag	GW17_c01111
 108746	108780	tRNA
 			product	tRNA-Isoleucine
 108845	108882	tRNA
 			product	tRNA-Alanine
 109142	109026	gene
 			gene	Orf42
-			locus_tag	GW17_> genome.tbl01141
+			locus_tag	GW17_c01141
 109507	109343	gene
 			gene	Orf56
-			locus_tag	GW17_> genome.tbl01151
+			locus_tag	GW17_c01151
 109684	109718	tRNA
 			product	tRNA-Alanine
 109855	112662	rRNA
@@ -329,60 +329,60 @@
 			product	tRNA-Asparagine
 114546	120344	gene
 			gene	Ycf1
-			locus_tag	GW17_> genome.tbl01221
+			locus_tag	GW17_c01221
 120695	120997	gene
 			gene	Rps15
-			locus_tag	GW17_> genome.tbl01231
+			locus_tag	GW17_c01231
 121105	122283	gene
 			gene	NdhH
-			locus_tag	GW17_> genome.tbl01241
+			locus_tag	GW17_c01241
 122288	122851	gene
 			gene	Orf188
-			locus_tag	GW17_> genome.tbl01251
+			locus_tag	GW17_c01251
 125618	123417	gene
 			gene	NdhF
-			locus_tag	GW17_> genome.tbl01261
+			locus_tag	GW17_c01261
 126410	126580	gene
 			gene	Rpl32
-			locus_tag	GW17_> genome.tbl01271
+			locus_tag	GW17_c01271
 127406	127485	tRNA
 			product	tRNA-Leucine
 127584	128573	gene
 			gene	CcsA
-			locus_tag	GW17_> genome.tbl01291
+			locus_tag	GW17_c01291
 130317	128815	gene
 			gene	NdhD
-			locus_tag	GW17_> genome.tbl01301
+			locus_tag	GW17_c01301
 130685	130443	gene
 			gene	PsaC
-			locus_tag	GW17_> genome.tbl01311
+			locus_tag	GW17_c01311
 131660	131358	gene
 			gene	NdhE
-			locus_tag	GW17_> genome.tbl01321
+			locus_tag	GW17_c01321
 132314	131787	gene
 			gene	NdhG
-			locus_tag	GW17_> genome.tbl01331
+			locus_tag	GW17_c01331
 133253	132714	gene
 			gene	NdhI
-			locus_tag	GW17_> genome.tbl01341
+			locus_tag	GW17_c01341
 133881	133345	gene
 			gene	NdhA
-			locus_tag	GW17_> genome.tbl01351
+			locus_tag	GW17_c01351
 135529	134966	gene
 			gene	Orf188
-			locus_tag	GW17_> genome.tbl01361
+			locus_tag	GW17_c01361
 135529	134978	gene
 			gene	NdhA
-			locus_tag	GW17_> genome.tbl01371
+			locus_tag	GW17_c01371
 136712	135534	gene
 			gene	NdhH
-			locus_tag	GW17_> genome.tbl01381
+			locus_tag	GW17_c01381
 137122	136820	gene
 			gene	Rps15
-			locus_tag	GW17_> genome.tbl01391
+			locus_tag	GW17_c01391
 143271	137473	gene
 			gene	Ycf1
-			locus_tag	GW17_> genome.tbl01401
+			locus_tag	GW17_c01401
 143612	143683	tRNA
 			product	tRNA-Asparagine
 144335	144262	tRNA
@@ -397,17 +397,17 @@
 			product	tRNA-Alanine
 148310	148474	gene
 			gene	Orf56
-			locus_tag	GW17_> genome.tbl01471
+			locus_tag	GW17_c01471
 148675	148791	gene
 			gene	Orf42
-			locus_tag	GW17_> genome.tbl01481
+			locus_tag	GW17_c01481
 148972	148935	tRNA
 			product	tRNA-Alanine
 149071	149037	tRNA
 			product	tRNA-Isoleucine
 149837	149565	gene
 			gene	Ycf68
-			locus_tag	GW17_> genome.tbl01511
+			locus_tag	GW17_c01511
 150048	150007	tRNA
 			product	tRNA-Isoleucine
 151843	150353	rRNA
@@ -416,37 +416,37 @@
 			product	tRNA-Valine
 154072	154323	gene
 			gene	Rps12_3end
-			locus_tag	GW17_> genome.tbl01551
+			locus_tag	GW17_c01551
 154935	155399	gene
 			gene	Rps7
-			locus_tag	GW17_> genome.tbl01561
+			locus_tag	GW17_c01561
 155707	156483	gene
 			gene	NdhB
-			locus_tag	GW17_> genome.tbl01571
+			locus_tag	GW17_c01571
 157184	157936	gene
 			gene	NdhB
-			locus_tag	GW17_> genome.tbl01581
+			locus_tag	GW17_c01581
 158507	158587	tRNA
 			product	tRNA-Leucine
 159372	159286	gene
 			gene	Ycf15
-			locus_tag	GW17_> genome.tbl01601
+			locus_tag	GW17_c01601
 159517	159347	gene
 			gene	Ycf15
-			locus_tag	GW17_> genome.tbl01611
+			locus_tag	GW17_c01611
 166540	159635	gene
 			gene	Ycf2
-			locus_tag	GW17_> genome.tbl01621
+			locus_tag	GW17_c01621
 166665	166738	tRNA
 			product	tRNA-Isoleucine
 166903	167181	gene
 			gene	Rpl23
-			locus_tag	GW17_> genome.tbl01641
+			locus_tag	GW17_c01641
 167209	167595	gene
 			gene	Rpl2
-			locus_tag	GW17_> genome.tbl01651
+			locus_tag	GW17_c01651
 168255	168683	gene
 			gene	Rpl2
-			locus_tag	GW17_> genome.tbl01661
+			locus_tag	GW17_c01661
 168804	168730	tRNA
 			product	tRNA-Histidine
