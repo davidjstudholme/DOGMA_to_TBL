@@ -5,7 +5,8 @@ Converting DOGMA annotation into NCBI's feature table format
 I have annotated a chloroplast genome using ![DOGMA]{https://dogma.ccbb.utexas.edu/}. This produces annotation in DOGMA's
 table format, which looks like this:
 
-```275     1333    psbA    -
+```
+275     1333    psbA    -
 1939    3465    matK    -
 ```
 
@@ -15,7 +16,8 @@ This requires conversion of Feature Table (.tbl) into Sequin (.sqn) format using
 
 So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl) format, which looks like this:
 
-```>Feature 1
+```
+>Feature 1
 1       168843  REFERENCE
                         PBARC   12345
 275     1333    gene
