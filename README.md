@@ -56,7 +56,7 @@ perl dogma_to_feature-table.pl  DOGMA_annotation_text_summary.txt genome.fasta >
 ```
 
 Subsequently, I can then convert this Feature Table into Sequin format:
-
+(Template file was generated here: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/)
 ```
 ./tbl2asn -t template.sbt -i genome.fasta -Mn -Z discrep -a r10k -l paired_ends -j"[organism=Ensete ventricosum]"
 ```
