@@ -1,0 +1,6 @@
+    73 ERROR:   SEQ_FEAT.InternalStop
+    40 ERROR:   SEQ_FEAT.NoStop
+    84 ERROR:   SEQ_FEAT.StartCodon
+    84 ERROR:   SEQ_INST.BadProteinStart
+    73 ERROR:   SEQ_INST.StopInProtein
+    28 WARNING: SEQ_FEAT.CollidingGeneNames
