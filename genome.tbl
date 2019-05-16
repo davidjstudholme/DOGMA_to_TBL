@@ -1,38 +1,38 @@
 >Feature 1
 1	168843	REFERENCE
 			PBARC	12345
-275	1333	gene
+1333	275	gene
 			gene	PsbA
 			locus_tag	GW17_c00001
-275	1333	mRNA
+1333	275	mRNA
 			product	PsbA
 			protein_id	gnl|ncbi|GW17_c00001
 			transcript_id	gnl|ncbi|GW17_c00001_mrna
-275	1333	CDS
+1333	275	CDS
 			codon_start	1
 			product	PsbA
 			protein_id	gnl|ncbi|GW17_c00001
 			transcript_id	gnl|ncbi|GW17_c00001_mrna
-1939	3465	gene
+3465	1939	gene
 			gene	MatK
 			locus_tag	GW17_c00011
-1939	3465	mRNA
+3465	1939	mRNA
 			product	MatK
 			protein_id	gnl|ncbi|GW17_c00011
 			transcript_id	gnl|ncbi|GW17_c00011_mrna
-1939	3465	CDS
+3465	1939	CDS
 			codon_start	1
 			product	MatK
 			protein_id	gnl|ncbi|GW17_c00011
 			transcript_id	gnl|ncbi|GW17_c00011_mrna
-5075	5287	gene
+5287	5075	gene
 			gene	Rps16
 			locus_tag	GW17_c00031
-5075	5287	mRNA
+5287	5075	mRNA
 			product	Rps16
 			protein_id	gnl|ncbi|GW17_c00031
 			transcript_id	gnl|ncbi|GW17_c00031_mrna
-5075	5287	CDS
+5287	5075	CDS
 			codon_start	1
 			product	Rps16
 			protein_id	gnl|ncbi|GW17_c00031
@@ -61,122 +61,122 @@
 			product	PsbI
 			protein_id	gnl|ncbi|GW17_c00061
 			transcript_id	gnl|ncbi|GW17_c00061_mrna
-11244	12785	gene
+12785	11244	gene
 			gene	AtpA
 			locus_tag	GW17_c00101
-11244	12785	mRNA
+12785	11244	mRNA
 			product	AtpA
 			protein_id	gnl|ncbi|GW17_c00101
 			transcript_id	gnl|ncbi|GW17_c00101_mrna
-11244	12785	CDS
+12785	11244	CDS
 			codon_start	1
 			product	AtpA
 			protein_id	gnl|ncbi|GW17_c00101
 			transcript_id	gnl|ncbi|GW17_c00101_mrna
-12863	13270	gene
+13270	12863	gene
 			gene	AtpF
 			locus_tag	GW17_c00111
-12863	13270	mRNA
+13270	12863	mRNA
 			product	AtpF
 			protein_id	gnl|ncbi|GW17_c00111
 			transcript_id	gnl|ncbi|GW17_c00111_mrna
-12863	13270	CDS
+13270	12863	CDS
 			codon_start	1
 			product	AtpF
 			protein_id	gnl|ncbi|GW17_c00111
 			transcript_id	gnl|ncbi|GW17_c00111_mrna
-14114	14257	gene
+14257	14114	gene
 			gene	AtpF
 			locus_tag	GW17_c00121
-14114	14257	mRNA
+14257	14114	mRNA
 			product	AtpF
 			protein_id	gnl|ncbi|GW17_c00121
 			transcript_id	gnl|ncbi|GW17_c00121_mrna
-14114	14257	CDS
+14257	14114	CDS
 			codon_start	1
 			product	AtpF
 			protein_id	gnl|ncbi|GW17_c00121
 			transcript_id	gnl|ncbi|GW17_c00121_mrna
-14754	14996	gene
+14996	14754	gene
 			gene	AtpH
 			locus_tag	GW17_c00131
-14754	14996	mRNA
+14996	14754	mRNA
 			product	AtpH
 			protein_id	gnl|ncbi|GW17_c00131
 			transcript_id	gnl|ncbi|GW17_c00131_mrna
-14754	14996	CDS
+14996	14754	CDS
 			codon_start	1
 			product	AtpH
 			protein_id	gnl|ncbi|GW17_c00131
 			transcript_id	gnl|ncbi|GW17_c00131_mrna
-16164	16904	gene
+16904	16164	gene
 			gene	AtpI
 			locus_tag	GW17_c00141
-16164	16904	mRNA
+16904	16164	mRNA
 			product	AtpI
 			protein_id	gnl|ncbi|GW17_c00141
 			transcript_id	gnl|ncbi|GW17_c00141_mrna
-16164	16904	CDS
+16904	16164	CDS
 			codon_start	1
 			product	AtpI
 			protein_id	gnl|ncbi|GW17_c00141
 			transcript_id	gnl|ncbi|GW17_c00141_mrna
-17191	17895	gene
+17895	17191	gene
 			gene	Rps2
 			locus_tag	GW17_c00151
-17191	17895	mRNA
+17895	17191	mRNA
 			product	Rps2
 			protein_id	gnl|ncbi|GW17_c00151
 			transcript_id	gnl|ncbi|GW17_c00151_mrna
-17191	17895	CDS
+17895	17191	CDS
 			codon_start	1
 			product	Rps2
 			protein_id	gnl|ncbi|GW17_c00151
 			transcript_id	gnl|ncbi|GW17_c00151_mrna
-18190	22266	gene
+22266	18190	gene
 			gene	RpoC2
 			locus_tag	GW17_c00161
-18190	22266	mRNA
+22266	18190	mRNA
 			product	RpoC2
 			protein_id	gnl|ncbi|GW17_c00161
 			transcript_id	gnl|ncbi|GW17_c00161_mrna
-18190	22266	CDS
+22266	18190	CDS
 			codon_start	1
 			product	RpoC2
 			protein_id	gnl|ncbi|GW17_c00161
 			transcript_id	gnl|ncbi|GW17_c00161_mrna
-22459	24093	gene
+24093	22459	gene
 			gene	RpoC1
 			locus_tag	GW17_c00171
-22459	24093	mRNA
+24093	22459	mRNA
 			product	RpoC1
 			protein_id	gnl|ncbi|GW17_c00171
 			transcript_id	gnl|ncbi|GW17_c00171_mrna
-22459	24093	CDS
+24093	22459	CDS
 			codon_start	1
 			product	RpoC1
 			protein_id	gnl|ncbi|GW17_c00171
 			transcript_id	gnl|ncbi|GW17_c00171_mrna
-24791	25231	gene
+25231	24791	gene
 			gene	RpoC1
 			locus_tag	GW17_c00181
-24791	25231	mRNA
+25231	24791	mRNA
 			product	RpoC1
 			protein_id	gnl|ncbi|GW17_c00181
 			transcript_id	gnl|ncbi|GW17_c00181_mrna
-24791	25231	CDS
+25231	24791	CDS
 			codon_start	1
 			product	RpoC1
 			protein_id	gnl|ncbi|GW17_c00181
 			transcript_id	gnl|ncbi|GW17_c00181_mrna
-25261	28476	gene
+28476	25261	gene
 			gene	RpoB
 			locus_tag	GW17_c00191
-25261	28476	mRNA
+28476	25261	mRNA
 			product	RpoB
 			protein_id	gnl|ncbi|GW17_c00191
 			transcript_id	gnl|ncbi|GW17_c00191_mrna
-25261	28476	CDS
+28476	25261	CDS
 			codon_start	1
 			product	RpoB
 			protein_id	gnl|ncbi|GW17_c00191
@@ -193,14 +193,14 @@
 			product	PetN
 			protein_id	gnl|ncbi|GW17_c00211
 			transcript_id	gnl|ncbi|GW17_c00211_mrna
-31972	32073	gene
+32073	31972	gene
 			gene	PsbM
 			locus_tag	GW17_c00221
-31972	32073	mRNA
+32073	31972	mRNA
 			product	PsbM
 			protein_id	gnl|ncbi|GW17_c00221
 			transcript_id	gnl|ncbi|GW17_c00221_mrna
-31972	32073	CDS
+32073	31972	CDS
 			codon_start	1
 			product	PsbM
 			protein_id	gnl|ncbi|GW17_c00221
@@ -241,146 +241,146 @@
 			product	LhbA
 			protein_id	gnl|ncbi|GW17_c00311
 			transcript_id	gnl|ncbi|GW17_c00311_mrna
-39736	40035	gene
+40035	39736	gene
 			gene	Rps14
 			locus_tag	GW17_c00341
-39736	40035	mRNA
+40035	39736	mRNA
 			product	Rps14
 			protein_id	gnl|ncbi|GW17_c00341
 			transcript_id	gnl|ncbi|GW17_c00341_mrna
-39736	40035	CDS
+40035	39736	CDS
 			codon_start	1
 			product	Rps14
 			protein_id	gnl|ncbi|GW17_c00341
 			transcript_id	gnl|ncbi|GW17_c00341_mrna
-40188	42389	gene
+42389	40188	gene
 			gene	PsaB
 			locus_tag	GW17_c00351
-40188	42389	mRNA
+42389	40188	mRNA
 			product	PsaB
 			protein_id	gnl|ncbi|GW17_c00351
 			transcript_id	gnl|ncbi|GW17_c00351_mrna
-40188	42389	CDS
+42389	40188	CDS
 			codon_start	1
 			product	PsaB
 			protein_id	gnl|ncbi|GW17_c00351
 			transcript_id	gnl|ncbi|GW17_c00351_mrna
-42418	44667	gene
+44667	42418	gene
 			gene	PsaA
 			locus_tag	GW17_c00361
-42418	44667	mRNA
+44667	42418	mRNA
 			product	PsaA
 			protein_id	gnl|ncbi|GW17_c00361
 			transcript_id	gnl|ncbi|GW17_c00361_mrna
-42418	44667	CDS
+44667	42418	CDS
 			codon_start	1
 			product	PsaA
 			protein_id	gnl|ncbi|GW17_c00361
 			transcript_id	gnl|ncbi|GW17_c00361_mrna
-45300	45446	gene
+45446	45300	gene
 			gene	Ycf3
 			locus_tag	GW17_c00371
-45300	45446	mRNA
+45446	45300	mRNA
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00371
 			transcript_id	gnl|ncbi|GW17_c00371_mrna
-45300	45446	CDS
+45446	45300	CDS
 			codon_start	1
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00371
 			transcript_id	gnl|ncbi|GW17_c00371_mrna
-46228	46455	gene
+46455	46228	gene
 			gene	Ycf3
 			locus_tag	GW17_c00381
-46228	46455	mRNA
+46455	46228	mRNA
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00381
 			transcript_id	gnl|ncbi|GW17_c00381_mrna
-46228	46455	CDS
+46455	46228	CDS
 			codon_start	1
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00381
 			transcript_id	gnl|ncbi|GW17_c00381_mrna
-47189	47320	gene
+47320	47189	gene
 			gene	Ycf3
 			locus_tag	GW17_c00391
-47189	47320	mRNA
+47320	47189	mRNA
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00391
 			transcript_id	gnl|ncbi|GW17_c00391_mrna
-47189	47320	CDS
+47320	47189	CDS
 			codon_start	1
 			product	Ycf3
 			protein_id	gnl|ncbi|GW17_c00391
 			transcript_id	gnl|ncbi|GW17_c00391_mrna
-48346	48948	gene
+48948	48346	gene
 			gene	Rps4
 			locus_tag	GW17_c00411
-48346	48948	mRNA
+48948	48346	mRNA
 			product	Rps4
 			protein_id	gnl|ncbi|GW17_c00411
 			transcript_id	gnl|ncbi|GW17_c00411_mrna
-48346	48948	CDS
+48948	48346	CDS
 			codon_start	1
 			product	Rps4
 			protein_id	gnl|ncbi|GW17_c00411
 			transcript_id	gnl|ncbi|GW17_c00411_mrna
-51935	52411	gene
+52411	51935	gene
 			gene	NdhJ
 			locus_tag	GW17_c00461
-51935	52411	mRNA
+52411	51935	mRNA
 			product	NdhJ
 			protein_id	gnl|ncbi|GW17_c00461
 			transcript_id	gnl|ncbi|GW17_c00461_mrna
-51935	52411	CDS
+52411	51935	CDS
 			codon_start	1
 			product	NdhJ
 			protein_id	gnl|ncbi|GW17_c00461
 			transcript_id	gnl|ncbi|GW17_c00461_mrna
-52524	53375	gene
+53375	52524	gene
 			gene	NdhK
 			locus_tag	GW17_c00471
-52524	53375	mRNA
+53375	52524	mRNA
 			product	NdhK
 			protein_id	gnl|ncbi|GW17_c00471
 			transcript_id	gnl|ncbi|GW17_c00471_mrna
-52524	53375	CDS
+53375	52524	CDS
 			codon_start	1
 			product	NdhK
 			protein_id	gnl|ncbi|GW17_c00471
 			transcript_id	gnl|ncbi|GW17_c00471_mrna
-53258	53617	gene
+53617	53258	gene
 			gene	NdhC
 			locus_tag	GW17_c00481
-53258	53617	mRNA
+53617	53258	mRNA
 			product	NdhC
 			protein_id	gnl|ncbi|GW17_c00481
 			transcript_id	gnl|ncbi|GW17_c00481_mrna
-53258	53617	CDS
+53617	53258	CDS
 			codon_start	1
 			product	NdhC
 			protein_id	gnl|ncbi|GW17_c00481
 			transcript_id	gnl|ncbi|GW17_c00481_mrna
-56164	56565	gene
+56565	56164	gene
 			gene	AtpE
 			locus_tag	GW17_c00531
-56164	56565	mRNA
+56565	56164	mRNA
 			product	AtpE
 			protein_id	gnl|ncbi|GW17_c00531
 			transcript_id	gnl|ncbi|GW17_c00531_mrna
-56164	56565	CDS
+56565	56164	CDS
 			codon_start	1
 			product	AtpE
 			protein_id	gnl|ncbi|GW17_c00531
 			transcript_id	gnl|ncbi|GW17_c00531_mrna
-56565	58058	gene
+58058	56565	gene
 			gene	AtpB
 			locus_tag	GW17_c00541
-56565	58058	mRNA
+58058	56565	mRNA
 			product	AtpB
 			protein_id	gnl|ncbi|GW17_c00541
 			transcript_id	gnl|ncbi|GW17_c00541_mrna
-56565	58058	CDS
+58058	56565	CDS
 			codon_start	1
 			product	AtpB
 			protein_id	gnl|ncbi|GW17_c00541
@@ -457,50 +457,50 @@
 			product	PetA
 			protein_id	gnl|ncbi|GW17_c00601
 			transcript_id	gnl|ncbi|GW17_c00601_mrna
-67805	67924	gene
+67924	67805	gene
 			gene	PsbJ
 			locus_tag	GW17_c00611
-67805	67924	mRNA
+67924	67805	mRNA
 			product	PsbJ
 			protein_id	gnl|ncbi|GW17_c00611
 			transcript_id	gnl|ncbi|GW17_c00611_mrna
-67805	67924	CDS
+67924	67805	CDS
 			codon_start	1
 			product	PsbJ
 			protein_id	gnl|ncbi|GW17_c00611
 			transcript_id	gnl|ncbi|GW17_c00611_mrna
-68053	68166	gene
+68166	68053	gene
 			gene	PsbL
 			locus_tag	GW17_c00621
-68053	68166	mRNA
+68166	68053	mRNA
 			product	PsbL
 			protein_id	gnl|ncbi|GW17_c00621
 			transcript_id	gnl|ncbi|GW17_c00621_mrna
-68053	68166	CDS
+68166	68053	CDS
 			codon_start	1
 			product	PsbL
 			protein_id	gnl|ncbi|GW17_c00621
 			transcript_id	gnl|ncbi|GW17_c00621_mrna
-68192	68308	gene
+68308	68192	gene
 			gene	PsbF
 			locus_tag	GW17_c00631
-68192	68308	mRNA
+68308	68192	mRNA
 			product	PsbF
 			protein_id	gnl|ncbi|GW17_c00631
 			transcript_id	gnl|ncbi|GW17_c00631_mrna
-68192	68308	CDS
+68308	68192	CDS
 			codon_start	1
 			product	PsbF
 			protein_id	gnl|ncbi|GW17_c00631
 			transcript_id	gnl|ncbi|GW17_c00631_mrna
-68322	68570	gene
+68570	68322	gene
 			gene	PsbE
 			locus_tag	GW17_c00641
-68322	68570	mRNA
+68570	68322	mRNA
 			product	PsbE
 			protein_id	gnl|ncbi|GW17_c00641
 			transcript_id	gnl|ncbi|GW17_c00641_mrna
-68322	68570	CDS
+68570	68322	CDS
 			codon_start	1
 			product	PsbE
 			protein_id	gnl|ncbi|GW17_c00641
@@ -565,62 +565,62 @@
 			product	Rps18
 			protein_id	gnl|ncbi|GW17_c00721
 			transcript_id	gnl|ncbi|GW17_c00721_mrna
-72897	73247	gene
+73247	72897	gene
 			gene	Rpl20
 			locus_tag	GW17_c00731
-72897	73247	mRNA
+73247	72897	mRNA
 			product	Rpl20
 			protein_id	gnl|ncbi|GW17_c00731
 			transcript_id	gnl|ncbi|GW17_c00731_mrna
-72897	73247	CDS
+73247	72897	CDS
 			codon_start	1
 			product	Rpl20
 			protein_id	gnl|ncbi|GW17_c00731
 			transcript_id	gnl|ncbi|GW17_c00731_mrna
-73955	74068	gene
+74068	73955	gene
 			gene	Rps12
 			locus_tag	GW17_c00741
-73955	74068	mRNA
+74068	73955	mRNA
 			product	Rps12
 			protein_id	gnl|ncbi|GW17_c00741
 			transcript_id	gnl|ncbi|GW17_c00741_mrna
-73955	74068	CDS
+74068	73955	CDS
 			codon_start	1
 			product	Rps12
 			protein_id	gnl|ncbi|GW17_c00741
 			transcript_id	gnl|ncbi|GW17_c00741_mrna
-74222	74470	gene
+74470	74222	gene
 			gene	ClpP
 			locus_tag	GW17_c00751
-74222	74470	mRNA
+74470	74222	mRNA
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00751
 			transcript_id	gnl|ncbi|GW17_c00751_mrna
-74222	74470	CDS
+74470	74222	CDS
 			codon_start	1
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00751
 			transcript_id	gnl|ncbi|GW17_c00751_mrna
-75114	75404	gene
+75404	75114	gene
 			gene	ClpP
 			locus_tag	GW17_c00761
-75114	75404	mRNA
+75404	75114	mRNA
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00761
 			transcript_id	gnl|ncbi|GW17_c00761_mrna
-75114	75404	CDS
+75404	75114	CDS
 			codon_start	1
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00761
 			transcript_id	gnl|ncbi|GW17_c00761_mrna
-76210	76278	gene
+76278	76210	gene
 			gene	ClpP
 			locus_tag	GW17_c00771
-76210	76278	mRNA
+76278	76210	mRNA
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00771
 			transcript_id	gnl|ncbi|GW17_c00771_mrna
-76210	76278	CDS
+76278	76210	CDS
 			codon_start	1
 			product	ClpP
 			protein_id	gnl|ncbi|GW17_c00771
@@ -649,14 +649,14 @@
 			product	PsbT
 			protein_id	gnl|ncbi|GW17_c00791
 			transcript_id	gnl|ncbi|GW17_c00791_mrna
-78611	78739	gene
+78739	78611	gene
 			gene	PsbN
 			locus_tag	GW17_c00801
-78611	78739	mRNA
+78739	78611	mRNA
 			product	PsbN
 			protein_id	gnl|ncbi|GW17_c00801
 			transcript_id	gnl|ncbi|GW17_c00801_mrna
-78611	78739	CDS
+78739	78611	CDS
 			codon_start	1
 			product	PsbN
 			protein_id	gnl|ncbi|GW17_c00801
@@ -697,158 +697,158 @@
 			product	PetD
 			protein_id	gnl|ncbi|GW17_c00831
 			transcript_id	gnl|ncbi|GW17_c00831_mrna
-82286	83296	gene
+83296	82286	gene
 			gene	RpoA
 			locus_tag	GW17_c00841
-82286	83296	mRNA
+83296	82286	mRNA
 			product	RpoA
 			protein_id	gnl|ncbi|GW17_c00841
 			transcript_id	gnl|ncbi|GW17_c00841_mrna
-82286	83296	CDS
+83296	82286	CDS
 			codon_start	1
 			product	RpoA
 			protein_id	gnl|ncbi|GW17_c00841
 			transcript_id	gnl|ncbi|GW17_c00841_mrna
-83367	83780	gene
+83780	83367	gene
 			gene	Rps11
 			locus_tag	GW17_c00851
-83367	83780	mRNA
+83780	83367	mRNA
 			product	Rps11
 			protein_id	gnl|ncbi|GW17_c00851
 			transcript_id	gnl|ncbi|GW17_c00851_mrna
-83367	83780	CDS
+83780	83367	CDS
 			codon_start	1
 			product	Rps11
 			protein_id	gnl|ncbi|GW17_c00851
 			transcript_id	gnl|ncbi|GW17_c00851_mrna
-83909	84019	gene
+84019	83909	gene
 			gene	Rpl36
 			locus_tag	GW17_c00861
-83909	84019	mRNA
+84019	83909	mRNA
 			product	Rpl36
 			protein_id	gnl|ncbi|GW17_c00861
 			transcript_id	gnl|ncbi|GW17_c00861_mrna
-83909	84019	CDS
+84019	83909	CDS
 			codon_start	1
 			product	Rpl36
 			protein_id	gnl|ncbi|GW17_c00861
 			transcript_id	gnl|ncbi|GW17_c00861_mrna
-84135	84365	gene
+84365	84135	gene
 			gene	InfA
 			locus_tag	GW17_c00871
-84135	84365	mRNA
+84365	84135	mRNA
 			product	InfA
 			protein_id	gnl|ncbi|GW17_c00871
 			transcript_id	gnl|ncbi|GW17_c00871_mrna
-84135	84365	CDS
+84365	84135	CDS
 			codon_start	1
 			product	InfA
 			protein_id	gnl|ncbi|GW17_c00871
 			transcript_id	gnl|ncbi|GW17_c00871_mrna
-84485	84880	gene
+84880	84485	gene
 			gene	Rps8
 			locus_tag	GW17_c00881
-84485	84880	mRNA
+84880	84485	mRNA
 			product	Rps8
 			protein_id	gnl|ncbi|GW17_c00881
 			transcript_id	gnl|ncbi|GW17_c00881_mrna
-84485	84880	CDS
+84880	84485	CDS
 			codon_start	1
 			product	Rps8
 			protein_id	gnl|ncbi|GW17_c00881
 			transcript_id	gnl|ncbi|GW17_c00881_mrna
-85120	85485	gene
+85485	85120	gene
 			gene	Rpl14
 			locus_tag	GW17_c00891
-85120	85485	mRNA
+85485	85120	mRNA
 			product	Rpl14
 			protein_id	gnl|ncbi|GW17_c00891
 			transcript_id	gnl|ncbi|GW17_c00891_mrna
-85120	85485	CDS
+85485	85120	CDS
 			codon_start	1
 			product	Rpl14
 			protein_id	gnl|ncbi|GW17_c00891
 			transcript_id	gnl|ncbi|GW17_c00891_mrna
-85618	86016	gene
+86016	85618	gene
 			gene	Rpl16
 			locus_tag	GW17_c00901
-85618	86016	mRNA
+86016	85618	mRNA
 			product	Rpl16
 			protein_id	gnl|ncbi|GW17_c00901
 			transcript_id	gnl|ncbi|GW17_c00901_mrna
-85618	86016	CDS
+86016	85618	CDS
 			codon_start	1
 			product	Rpl16
 			protein_id	gnl|ncbi|GW17_c00901
 			transcript_id	gnl|ncbi|GW17_c00901_mrna
-87208	87858	gene
+87858	87208	gene
 			gene	Rps3
 			locus_tag	GW17_c00911
-87208	87858	mRNA
+87858	87208	mRNA
 			product	Rps3
 			protein_id	gnl|ncbi|GW17_c00911
 			transcript_id	gnl|ncbi|GW17_c00911_mrna
-87208	87858	CDS
+87858	87208	CDS
 			codon_start	1
 			product	Rps3
 			protein_id	gnl|ncbi|GW17_c00911
 			transcript_id	gnl|ncbi|GW17_c00911_mrna
-87931	88311	gene
+88311	87931	gene
 			gene	Rpl22
 			locus_tag	GW17_c00921
-87931	88311	mRNA
+88311	87931	mRNA
 			product	Rpl22
 			protein_id	gnl|ncbi|GW17_c00921
 			transcript_id	gnl|ncbi|GW17_c00921_mrna
-87931	88311	CDS
+88311	87931	CDS
 			codon_start	1
 			product	Rpl22
 			protein_id	gnl|ncbi|GW17_c00921
 			transcript_id	gnl|ncbi|GW17_c00921_mrna
-88568	88843	gene
+88843	88568	gene
 			gene	Rps19
 			locus_tag	GW17_c00931
-88568	88843	mRNA
+88843	88568	mRNA
 			product	Rps19
 			protein_id	gnl|ncbi|GW17_c00931
 			transcript_id	gnl|ncbi|GW17_c00931_mrna
-88568	88843	CDS
+88843	88568	CDS
 			codon_start	1
 			product	Rps19
 			protein_id	gnl|ncbi|GW17_c00931
 			transcript_id	gnl|ncbi|GW17_c00931_mrna
-89134	89562	gene
+89562	89134	gene
 			gene	Rpl2
 			locus_tag	GW17_c00951
-89134	89562	mRNA
+89562	89134	mRNA
 			product	Rpl2
 			protein_id	gnl|ncbi|GW17_c00951
 			transcript_id	gnl|ncbi|GW17_c00951_mrna
-89134	89562	CDS
+89562	89134	CDS
 			codon_start	1
 			product	Rpl2
 			protein_id	gnl|ncbi|GW17_c00951
 			transcript_id	gnl|ncbi|GW17_c00951_mrna
-90222	90608	gene
+90608	90222	gene
 			gene	Rpl2
 			locus_tag	GW17_c00961
-90222	90608	mRNA
+90608	90222	mRNA
 			product	Rpl2
 			protein_id	gnl|ncbi|GW17_c00961
 			transcript_id	gnl|ncbi|GW17_c00961_mrna
-90222	90608	CDS
+90608	90222	CDS
 			codon_start	1
 			product	Rpl2
 			protein_id	gnl|ncbi|GW17_c00961
 			transcript_id	gnl|ncbi|GW17_c00961_mrna
-90636	90914	gene
+90914	90636	gene
 			gene	Rpl23
 			locus_tag	GW17_c00971
-90636	90914	mRNA
+90914	90636	mRNA
 			product	Rpl23
 			protein_id	gnl|ncbi|GW17_c00971
 			transcript_id	gnl|ncbi|GW17_c00971_mrna
-90636	90914	CDS
+90914	90636	CDS
 			codon_start	1
 			product	Rpl23
 			protein_id	gnl|ncbi|GW17_c00971
@@ -889,62 +889,62 @@
 			product	Ycf15
 			protein_id	gnl|ncbi|GW17_c01011
 			transcript_id	gnl|ncbi|GW17_c01011_mrna
-99881	100633	gene
+100633	99881	gene
 			gene	NdhB
 			locus_tag	GW17_c01031
-99881	100633	mRNA
+100633	99881	mRNA
 			product	NdhB
 			protein_id	gnl|ncbi|GW17_c01031
 			transcript_id	gnl|ncbi|GW17_c01031_mrna
-99881	100633	CDS
+100633	99881	CDS
 			codon_start	1
 			product	NdhB
 			protein_id	gnl|ncbi|GW17_c01031
 			transcript_id	gnl|ncbi|GW17_c01031_mrna
-101334	102110	gene
+102110	101334	gene
 			gene	NdhB
 			locus_tag	GW17_c01041
-101334	102110	mRNA
+102110	101334	mRNA
 			product	NdhB
 			protein_id	gnl|ncbi|GW17_c01041
 			transcript_id	gnl|ncbi|GW17_c01041_mrna
-101334	102110	CDS
+102110	101334	CDS
 			codon_start	1
 			product	NdhB
 			protein_id	gnl|ncbi|GW17_c01041
 			transcript_id	gnl|ncbi|GW17_c01041_mrna
-102418	102882	gene
+102882	102418	gene
 			gene	Rps7
 			locus_tag	GW17_c01051
-102418	102882	mRNA
+102882	102418	mRNA
 			product	Rps7
 			protein_id	gnl|ncbi|GW17_c01051
 			transcript_id	gnl|ncbi|GW17_c01051_mrna
-102418	102882	CDS
+102882	102418	CDS
 			codon_start	1
 			product	Rps7
 			protein_id	gnl|ncbi|GW17_c01051
 			transcript_id	gnl|ncbi|GW17_c01051_mrna
-103494	103745	gene
+103745	103494	gene
 			gene	Rps12_3end
 			locus_tag	GW17_c01061
-103494	103745	mRNA
+103745	103494	mRNA
 			product	Rps12_3end
 			protein_id	gnl|ncbi|GW17_c01061
 			transcript_id	gnl|ncbi|GW17_c01061_mrna
-103494	103745	CDS
+103745	103494	CDS
 			codon_start	1
 			product	Rps12_3end
 			protein_id	gnl|ncbi|GW17_c01061
 			transcript_id	gnl|ncbi|GW17_c01061_mrna
-103506	103745	gene
+103745	103506	gene
 			gene	Rps12
 			locus_tag	GW17_c01071
-103506	103745	mRNA
+103745	103506	mRNA
 			product	Rps12
 			protein_id	gnl|ncbi|GW17_c01071
 			transcript_id	gnl|ncbi|GW17_c01071_mrna
-103506	103745	CDS
+103745	103506	CDS
 			codon_start	1
 			product	Rps12
 			protein_id	gnl|ncbi|GW17_c01071
@@ -961,26 +961,26 @@
 			product	Ycf68
 			protein_id	gnl|ncbi|GW17_c01111
 			transcript_id	gnl|ncbi|GW17_c01111_mrna
-109026	109142	gene
+109142	109026	gene
 			gene	Orf42
 			locus_tag	GW17_c01141
-109026	109142	mRNA
+109142	109026	mRNA
 			product	Orf42
 			protein_id	gnl|ncbi|GW17_c01141
 			transcript_id	gnl|ncbi|GW17_c01141_mrna
-109026	109142	CDS
+109142	109026	CDS
 			codon_start	1
 			product	Orf42
 			protein_id	gnl|ncbi|GW17_c01141
 			transcript_id	gnl|ncbi|GW17_c01141_mrna
-109343	109507	gene
+109507	109343	gene
 			gene	Orf56
 			locus_tag	GW17_c01151
-109343	109507	mRNA
+109507	109343	mRNA
 			product	Orf56
 			protein_id	gnl|ncbi|GW17_c01151
 			transcript_id	gnl|ncbi|GW17_c01151_mrna
-109343	109507	CDS
+109507	109343	CDS
 			codon_start	1
 			product	Orf56
 			protein_id	gnl|ncbi|GW17_c01151
@@ -1033,14 +1033,14 @@
 			product	Orf188
 			protein_id	gnl|ncbi|GW17_c01251
 			transcript_id	gnl|ncbi|GW17_c01251_mrna
-123417	125618	gene
+125618	123417	gene
 			gene	NdhF
 			locus_tag	GW17_c01261
-123417	125618	mRNA
+125618	123417	mRNA
 			product	NdhF
 			protein_id	gnl|ncbi|GW17_c01261
 			transcript_id	gnl|ncbi|GW17_c01261_mrna
-123417	125618	CDS
+125618	123417	CDS
 			codon_start	1
 			product	NdhF
 			protein_id	gnl|ncbi|GW17_c01261
@@ -1069,134 +1069,134 @@
 			product	CcsA
 			protein_id	gnl|ncbi|GW17_c01291
 			transcript_id	gnl|ncbi|GW17_c01291_mrna
-128815	130317	gene
+130317	128815	gene
 			gene	NdhD
 			locus_tag	GW17_c01301
-128815	130317	mRNA
+130317	128815	mRNA
 			product	NdhD
 			protein_id	gnl|ncbi|GW17_c01301
 			transcript_id	gnl|ncbi|GW17_c01301_mrna
-128815	130317	CDS
+130317	128815	CDS
 			codon_start	1
 			product	NdhD
 			protein_id	gnl|ncbi|GW17_c01301
 			transcript_id	gnl|ncbi|GW17_c01301_mrna
-130443	130685	gene
+130685	130443	gene
 			gene	PsaC
 			locus_tag	GW17_c01311
-130443	130685	mRNA
+130685	130443	mRNA
 			product	PsaC
 			protein_id	gnl|ncbi|GW17_c01311
 			transcript_id	gnl|ncbi|GW17_c01311_mrna
-130443	130685	CDS
+130685	130443	CDS
 			codon_start	1
 			product	PsaC
 			protein_id	gnl|ncbi|GW17_c01311
 			transcript_id	gnl|ncbi|GW17_c01311_mrna
-131358	131660	gene
+131660	131358	gene
 			gene	NdhE
 			locus_tag	GW17_c01321
-131358	131660	mRNA
+131660	131358	mRNA
 			product	NdhE
 			protein_id	gnl|ncbi|GW17_c01321
 			transcript_id	gnl|ncbi|GW17_c01321_mrna
-131358	131660	CDS
+131660	131358	CDS
 			codon_start	1
 			product	NdhE
 			protein_id	gnl|ncbi|GW17_c01321
 			transcript_id	gnl|ncbi|GW17_c01321_mrna
-131787	132314	gene
+132314	131787	gene
 			gene	NdhG
 			locus_tag	GW17_c01331
-131787	132314	mRNA
+132314	131787	mRNA
 			product	NdhG
 			protein_id	gnl|ncbi|GW17_c01331
 			transcript_id	gnl|ncbi|GW17_c01331_mrna
-131787	132314	CDS
+132314	131787	CDS
 			codon_start	1
 			product	NdhG
 			protein_id	gnl|ncbi|GW17_c01331
 			transcript_id	gnl|ncbi|GW17_c01331_mrna
-132714	133253	gene
+133253	132714	gene
 			gene	NdhI
 			locus_tag	GW17_c01341
-132714	133253	mRNA
+133253	132714	mRNA
 			product	NdhI
 			protein_id	gnl|ncbi|GW17_c01341
 			transcript_id	gnl|ncbi|GW17_c01341_mrna
-132714	133253	CDS
+133253	132714	CDS
 			codon_start	1
 			product	NdhI
 			protein_id	gnl|ncbi|GW17_c01341
 			transcript_id	gnl|ncbi|GW17_c01341_mrna
-133345	133881	gene
+133881	133345	gene
 			gene	NdhA
 			locus_tag	GW17_c01351
-133345	133881	mRNA
+133881	133345	mRNA
 			product	NdhA
 			protein_id	gnl|ncbi|GW17_c01351
 			transcript_id	gnl|ncbi|GW17_c01351_mrna
-133345	133881	CDS
+133881	133345	CDS
 			codon_start	1
 			product	NdhA
 			protein_id	gnl|ncbi|GW17_c01351
 			transcript_id	gnl|ncbi|GW17_c01351_mrna
-134966	135529	gene
+135529	134966	gene
 			gene	Orf188
 			locus_tag	GW17_c01361
-134966	135529	mRNA
+135529	134966	mRNA
 			product	Orf188
 			protein_id	gnl|ncbi|GW17_c01361
 			transcript_id	gnl|ncbi|GW17_c01361_mrna
-134966	135529	CDS
+135529	134966	CDS
 			codon_start	1
 			product	Orf188
 			protein_id	gnl|ncbi|GW17_c01361
 			transcript_id	gnl|ncbi|GW17_c01361_mrna
-134978	135529	gene
+135529	134978	gene
 			gene	NdhA
 			locus_tag	GW17_c01371
-134978	135529	mRNA
+135529	134978	mRNA
 			product	NdhA
 			protein_id	gnl|ncbi|GW17_c01371
 			transcript_id	gnl|ncbi|GW17_c01371_mrna
-134978	135529	CDS
+135529	134978	CDS
 			codon_start	1
 			product	NdhA
 			protein_id	gnl|ncbi|GW17_c01371
 			transcript_id	gnl|ncbi|GW17_c01371_mrna
-135534	136712	gene
+136712	135534	gene
 			gene	NdhH
 			locus_tag	GW17_c01381
-135534	136712	mRNA
+136712	135534	mRNA
 			product	NdhH
 			protein_id	gnl|ncbi|GW17_c01381
 			transcript_id	gnl|ncbi|GW17_c01381_mrna
-135534	136712	CDS
+136712	135534	CDS
 			codon_start	1
 			product	NdhH
 			protein_id	gnl|ncbi|GW17_c01381
 			transcript_id	gnl|ncbi|GW17_c01381_mrna
-136820	137122	gene
+137122	136820	gene
 			gene	Rps15
 			locus_tag	GW17_c01391
-136820	137122	mRNA
+137122	136820	mRNA
 			product	Rps15
 			protein_id	gnl|ncbi|GW17_c01391
 			transcript_id	gnl|ncbi|GW17_c01391_mrna
-136820	137122	CDS
+137122	136820	CDS
 			codon_start	1
 			product	Rps15
 			protein_id	gnl|ncbi|GW17_c01391
 			transcript_id	gnl|ncbi|GW17_c01391_mrna
-137473	143271	gene
+143271	137473	gene
 			gene	Ycf1
 			locus_tag	GW17_c01401
-137473	143271	mRNA
+143271	137473	mRNA
 			product	Ycf1
 			protein_id	gnl|ncbi|GW17_c01401
 			transcript_id	gnl|ncbi|GW17_c01401_mrna
-137473	143271	CDS
+143271	137473	CDS
 			codon_start	1
 			product	Ycf1
 			protein_id	gnl|ncbi|GW17_c01401
@@ -1225,14 +1225,14 @@
 			product	Orf42
 			protein_id	gnl|ncbi|GW17_c01481
 			transcript_id	gnl|ncbi|GW17_c01481_mrna
-149565	149837	gene
+149837	149565	gene
 			gene	Ycf68
 			locus_tag	GW17_c01511
-149565	149837	mRNA
+149837	149565	mRNA
 			product	Ycf68
 			protein_id	gnl|ncbi|GW17_c01511
 			transcript_id	gnl|ncbi|GW17_c01511_mrna
-149565	149837	CDS
+149837	149565	CDS
 			codon_start	1
 			product	Ycf68
 			protein_id	gnl|ncbi|GW17_c01511
@@ -1285,38 +1285,38 @@
 			product	NdhB
 			protein_id	gnl|ncbi|GW17_c01581
 			transcript_id	gnl|ncbi|GW17_c01581_mrna
-159286	159372	gene
+159372	159286	gene
 			gene	Ycf15
 			locus_tag	GW17_c01601
-159286	159372	mRNA
+159372	159286	mRNA
 			product	Ycf15
 			protein_id	gnl|ncbi|GW17_c01601
 			transcript_id	gnl|ncbi|GW17_c01601_mrna
-159286	159372	CDS
+159372	159286	CDS
 			codon_start	1
 			product	Ycf15
 			protein_id	gnl|ncbi|GW17_c01601
 			transcript_id	gnl|ncbi|GW17_c01601_mrna
-159347	159517	gene
+159517	159347	gene
 			gene	Ycf15
 			locus_tag	GW17_c01611
-159347	159517	mRNA
+159517	159347	mRNA
 			product	Ycf15
 			protein_id	gnl|ncbi|GW17_c01611
 			transcript_id	gnl|ncbi|GW17_c01611_mrna
-159347	159517	CDS
+159517	159347	CDS
 			codon_start	1
 			product	Ycf15
 			protein_id	gnl|ncbi|GW17_c01611
 			transcript_id	gnl|ncbi|GW17_c01611_mrna
-159635	166540	gene
+166540	159635	gene
 			gene	Ycf2
 			locus_tag	GW17_c01621
-159635	166540	mRNA
+166540	159635	mRNA
 			product	Ycf2
 			protein_id	gnl|ncbi|GW17_c01621
 			transcript_id	gnl|ncbi|GW17_c01621_mrna
-159635	166540	CDS
+166540	159635	CDS
 			codon_start	1
 			product	Ycf2
 			protein_id	gnl|ncbi|GW17_c01621

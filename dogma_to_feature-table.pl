@@ -57,6 +57,8 @@ while (<FILE>) {
 	    ### Gone wrong
 	    die "strand = '$strand'";
 	}
+
+
 	
 	my $feature_type = 'CDS';
 	my $product;
@@ -87,11 +89,11 @@ while (<FILE>) {
 	$locus_tag .= $i;
 	$i += 10;
 	
-	my $frame=0;
-	($start, $stop) = sort {$a<=>$b} ($start, $stop);
 	
 	if ($feature_type eq 'CDS') {
-
+	    
+	    ### A protein-coding gene
+	    
 	    ### gene
 	    print "$start\t$stop\tgene\n";
 	    print "\t\t\tgene\t$product\n";
@@ -111,29 +113,12 @@ while (<FILE>) {
 	    print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
    
 
-	} elsif(0) {
+	} elsif($feature_type eq 'rRNA') {
 
-	    print "$seq_id";
-	    print "\t";
-	    print 'dogma';
-	    print "\t";
-	    print "$feature_type";
-	    print "\t";
-	    print "$start";
-	    print "\t";
-	    print "$stop";
-	    print "\t";
-	    print "0";
-	    print "\t";
-	    print "$strand";
-	    print "\t";
-	    print ".";
-	    print "\t";
-	    print "product=$product";
+
+	} elsif($feature_type eq 'tRNA') {
+
+
 	}
-    	
-
-
-	
     }
 }
