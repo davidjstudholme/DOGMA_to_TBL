@@ -4,13 +4,13 @@ use strict;
 use warnings;
 use Bio::SeqIO;
 
-my $locus_tag_prefix = 'GW17_c';
-
-my $usage = "Usage: $0 <DOGMA output file> <fasta file>";
+my $usage = "Usage: $0 <DOGMA output file> <fasta file> <locus-tag prefix>";
 
 my $infile = shift or die "$usage\n";
 my $sequence_file = shift or die "$usage\n";
+my $locus_tag_prefix = shift or die "$usage\n"; # e.g. 'GW17_c';
 
+my %mapping = %{ get_mapping_of_amino_acid_codes() };
 
 ### Get ID of chloroplast sequence
 my $inseq = Bio::SeqIO->new('-file' => "<$sequence_file",
@@ -100,32 +100,67 @@ while (<FILE>) {
 	    print "\t\t\tlocus_tag\t$locus_tag\n";
 
 	    ### mRNA
-	    print "$start\t$stop\tmRNA\n";
-	    print "\t\t\tproduct\t$product\n";
-	    print "\t\t\tprotein_id\tgnl|ncbi|$locus_tag\n";
-	    print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
+	    #print "$start\t$stop\tmRNA\n";
+	    #print "\t\t\tproduct\t$product\n";
+	    #print "\t\t\tprotein_id\tgnl|ncbi|$locus_tag\n";
+	    #print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
 
 	    ### CDS
-	    print "$start\t$stop\tCDS\n";
-	    print "\t\t\tcodon_start\t1\n";
-	    print "\t\t\tproduct\t$product\n";
-	    print "\t\t\tprotein_id\tgnl|ncbi|$locus_tag\n";
-	    print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
+	    #print "$start\t$stop\tCDS\n";
+	    #print "\t\t\tcodon_start\t1\n";
+	    #print "\t\t\tproduct\t$product\n";
+	    #print "\t\t\tprotein_id\tgnl|ncbi|$locus_tag\n";
+	    #print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
    
 
 	} elsif($feature_type eq 'tRNA') {
-
-	    print "$start\t$stop\ttRNA\n";
-	    print "\t\t\tproduct\t$product\n";
-	  
+	    ### tRNA
+	    if ($name =~ m/trn(f{0,1}\w)-(\w{3})/) {
+		my $amino_acid = $1;
+		my $anticodon = $2;
+		$product = "tRNA-$mapping{$amino_acid}";
+		die unless defined $mapping{$amino_acid};
+		
+		print "$start\t$stop\ttRNA\n";
+		print "\t\t\tproduct\t$product\n";
+	    } else {
+		die "Failed to parse tRNA '$name'";
+	    }
 
 	    
-
 	} elsif($feature_type eq 'rRNA') {
-	   
+	    ### rRNA
 	    print "$start\t$stop\trRNA\n";
 	    print "\t\t\tproduct\t$product\n";
-	    
 	}
     }
+}
+
+
+
+sub get_mapping_of_amino_acid_codes {
+    my %mapping = (
+	G => 'Glycine',
+	P => 'Proline',
+	A => 'Alanine',
+	V => 'Valine',
+	L => 'Leucine',
+	I => 'Isoleucine',
+	M => 'Methionine',
+	C => 'Cysteine',
+	F => 'Phenylalanine',
+	Y => 'Tyrosine',
+	W => 'Tryptophan',
+	H => 'Histidine',
+	K => 'Lysine',
+	R => 'Arginine',
+	Q => 'Glutamine',
+	N => 'Asparagine',
+	E => 'Glutamic Acid',
+	D => 'Aspartic Acid',
+	S => 'Serine',
+	T => 'Threonine',
+	fM => 'Methionine'
+	);
+    return \%mapping;
 }

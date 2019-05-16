@@ -1,8 +1,3 @@
-     9 ERROR:   SEQ_FEAT.InternalStop
-    47 ERROR:   SEQ_FEAT.MissingTrnaAA
-    38 ERROR:   SEQ_FEAT.NoStop
-    33 ERROR:   SEQ_FEAT.StartCodon
-    33 ERROR:   SEQ_INST.BadProteinStart
-     9 ERROR:   SEQ_INST.StopInProtein
+   113 ERROR:   SEQ_FEAT.LocusTagProblem
     14 WARNING: SEQ_FEAT.CollidingGeneNames
     14 INFO:    SEQ_FEAT.ReplicatedGeneSequence
