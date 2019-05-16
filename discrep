@@ -5,6 +5,9 @@ DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
 DISC_FEATURE_COUNT:gene: 113 present
 DISC_FEATURE_COUNT:CDS: 113 present
 DISC_FEATURE_COUNT:mRNA: 113 present
+DISC_FEATURE_COUNT:tRNA: 47 present
+DISC_FEATURE_COUNT:rRNA: 8 present
+FATAL: MISSING_GENES:55 features have no genes.
 DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
 DUPLICATE_GENE_LOCUS:48 genes have the same locus as another gene on the same Bioseq.
 OVERLAPPING_GENES:14 genes overlap another gene on the same strand.
@@ -14,6 +17,9 @@ SUSPECT_PRODUCT_NAMES:5 product_names contain suspect phrase or characters
 	May contain database identifier more appropriate in note; remove from product name
 		2 features Three or more numbers together
 		3 features Contains underscore
+FIND_BADLEN_TRNAS:1 tRNAs are too long
+FIND_BADLEN_TRNAS:13 tRNAs are too short
+FATAL: RNA_NO_PRODUCT:47 RNA features have no product and are not pseudo
 DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
 TEST_BAD_GENE_NAME:119 genes contain suspect phrase or characters
 SHORT_PROT_SEQUENCES:21 protein sequences are shorter than 50 aa.
@@ -22,6 +28,7 @@ FIND_OVERLAPPED_GENES:2 genes completely overlapped by other genes
 MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
 TECHNIQUE_NOT_TSA:1 technique are not set as TSA
 MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+FATAL: RRNA_NAME_CONFLICTS:8 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
 ONCALLER_BIOPROJECT_ID:114 sequences contain BioProject IDs
 DISC_INCONSISTENT_DBLINK:DBLink Report (all present, all same)
 DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
@@ -34,262 +41,388 @@ DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
 DiscRep_ALL:DISC_FEATURE_COUNT::gene: 113 present
 DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 113 present
 DiscRep_ALL:DISC_FEATURE_COUNT::mRNA: 113 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 47 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 8 present
+FATAL: DiscRep_ALL:MISSING_GENES::55 features have no genes.
+genome:tRNA	trnK-UUU	1:c4331-4295	
+genome:tRNA	trnQ-UUG	1:c7877-7805	
+genome:tRNA	trnS-GCU	1:c9198-9111	
+genome:tRNA	trnG-GCC	1:10850-10886	
+genome:tRNA	trnR-UCU	1:11024-11095	
+genome:tRNA	trnC-GCA	1:29515-29595	
+genome:tRNA	trnD-GUC	1:c33213-33140	
+genome:tRNA	trnY-GUA	1:c33699-33616	
+genome:tRNA	trnE-UUC	1:c33826-33754	
+genome:tRNA	trnT-GGU	1:34597-34668	
+genome:tRNA	trnM-CAU	1:34603-34661	
+genome:tRNA	trnS-UGA	1:c38444-38353	
+genome:tRNA	trnG-UCC	1:39208-39278	
+genome:tRNA	trnfM-CAU	1:c39567-39494	
+genome:tRNA	trnS-GGA	1:47963-48049	
+genome:tRNA	trnT-UGU	1:c49345-49273	
+genome:tRNA	trnL-UAA	1:50239-50275	
+genome:tRNA	trnL-UAA	1:50819-50868	
+genome:tRNA	trnF-GAA	1:51187-51259	
+genome:tRNA	trnV-UAC	1:c55098-55062	
+genome:tRNA	trnV-UAC	1:c55728-55691	
+genome:tRNA	trnM-CAU	1:55909-55980	
+genome:tRNA	trnT-GGU	1:55914-55972	
+genome:tRNA	trnW-CCA	1:c70631-70558	
+genome:tRNA	trnP-UGG	1:c70869-70796	
+genome:tRNA	trnP-GGG	1:c70868-70798	
+genome:tRNA	trnH-GUG	1:89013-89087	
+genome:tRNA	trnI-CAU	1:c91152-91079	
+genome:tRNA	trnL-CAA	1:c99310-99230	
+genome:tRNA	trnV-GAC	1:105675-105746	
+genome:rRNA	rrn16	1:105974-107464	
+genome:tRNA	trnI-GAU	1:107769-107810	
+genome:tRNA	trnI-GAU	1:108746-108780	
+genome:tRNA	trnA-UGC	1:108845-108882	
+genome:tRNA	trnA-UGC	1:109684-109718	
+genome:rRNA	rrn23	1:109855-112662	
+genome:rRNA	rrn4.5	1:112768-112870	
+genome:rRNA	rrn5	1:113081-113201	
+genome:tRNA	trnR-ACG	1:113482-113555	
+genome:tRNA	trnN-GUU	1:c114205-114134	
+genome:tRNA	trnL-UAG	1:127406-127485	
+genome:tRNA	trnN-GUU	1:143612-143683	
+genome:tRNA	trnR-ACG	1:c144335-144262	
+genome:rRNA	rrn5	1:c144736-144616	
+genome:rRNA	rrn4.5	1:c145049-144947	
+genome:rRNA	rrn23	1:c147957-145150	
+genome:tRNA	trnA-UGC	1:c148133-148099	
+genome:tRNA	trnA-UGC	1:c148972-148935	
+genome:tRNA	trnI-GAU	1:c149071-149037	
+genome:tRNA	trnI-GAU	1:c150048-150007	
+genome:rRNA	rrn16	1:c151843-150353	
+genome:tRNA	trnV-GAC	1:c152142-152071	
+genome:tRNA	trnL-CAA	1:158507-158587	
+genome:tRNA	trnI-CAU	1:166665-166738	
+genome:tRNA	trnH-GUG	1:c168804-168730	
+
 DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
 genome:1 (length 168843)
 
 DiscRep_ALL:DUPLICATE_GENE_LOCUS::48 genes have the same locus as another gene on the same Bioseq.
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::48 genes have the same locus as another gene on lcl|1
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus AtpF
-genome:Gene	AtpF	1:12863-13270	GW17_c00111
-genome:Gene	AtpF	1:14114-14257	GW17_c00121
+genome:Gene	AtpF	1:c13270-12860	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::3 genes have locus ClpP
-genome:Gene	ClpP	1:76210-76281	GW17_c00771
-genome:Gene	ClpP	1:74222-74470	GW17_c00751
-genome:Gene	ClpP	1:75114-75404	GW17_c00761
+genome:Gene	ClpP	1:c76278-76207	GW17_c00771
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus NdhA
-genome:Gene	NdhA	1:133345-133881	GW17_c01351
-genome:Gene	NdhA	1:134978-135529	GW17_c01371
+genome:Gene	NdhA	1:c133881-133342	GW17_c01351
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus NdhB
-genome:Gene	NdhB	1:101334-102110	GW17_c01041
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
 genome:Gene	NdhB	1:155707-156483	GW17_c01571
-genome:Gene	NdhB	1:99881-100633	GW17_c01031
+genome:Gene	NdhB	1:c100633-99878	GW17_c01031
 genome:Gene	NdhB	1:157184-157939	GW17_c01581
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus NdhH
 genome:Gene	NdhH	1:121105-122286	GW17_c01241
-genome:Gene	NdhH	1:135534-136712	GW17_c01381
+genome:Gene	NdhH	1:c136712-135531	GW17_c01381
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf188
-genome:Gene	Orf188	1:134966-135529	GW17_c01361
+genome:Gene	Orf188	1:c135529-134963	GW17_c01361
 genome:Gene	Orf188	1:122288-122854	GW17_c01251
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf42
 genome:Gene	Orf42	1:148675-148791	GW17_c01481
-genome:Gene	Orf42	1:109026-109142	GW17_c01141
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Orf56
-genome:Gene	Orf56	1:109343-109507	GW17_c01151
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
 genome:Gene	Orf56	1:148310-148474	GW17_c01471
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus Rpl2
 genome:Gene	Rpl2	1:168255-168686	GW17_c01661
 genome:Gene	Rpl2	1:167209-167595	GW17_c01651
-genome:Gene	Rpl2	1:90222-90608	GW17_c00961
-genome:Gene	Rpl2	1:89134-89565	GW17_c00951
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl2	1:c89562-89131	GW17_c00951
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rpl23
 genome:Gene	Rpl23	1:166903-167184	GW17_c01641
-genome:Gene	Rpl23	1:90636-90914	GW17_c00971
+genome:Gene	Rpl23	1:c90914-90633	GW17_c00971
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus RpoC1
-genome:Gene	RpoC1	1:24791-25231	GW17_c00181
-genome:Gene	RpoC1	1:22459-24093	GW17_c00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoC1	1:c24093-22456	GW17_c00171
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps12
-genome:Gene	Rps12	1:73955-74068	GW17_c00741
-genome:Gene	Rps12	1:103506-103745	GW17_c01071
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	Rps12	1:c103745-103503	GW17_c01071
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps12_3end
 genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
-genome:Gene	Rps12_3end	1:103494-103745	GW17_c01061
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps15
-genome:Gene	Rps15	1:136820-137122	GW17_c01391
+genome:Gene	Rps15	1:c137122-136817	GW17_c01391
 genome:Gene	Rps15	1:120695-121000	GW17_c01231
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Rps7
 genome:Gene	Rps7	1:154935-155402	GW17_c01561
-genome:Gene	Rps7	1:102418-102882	GW17_c01051
+genome:Gene	Rps7	1:c102882-102415	GW17_c01051
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf1
-genome:Gene	Ycf1	1:137473-143271	GW17_c01401
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
 genome:Gene	Ycf1	1:114546-120344	GW17_c01221
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::4 genes have locus Ycf15
-genome:Gene	Ycf15	1:159347-159517	GW17_c01611
-genome:Gene	Ycf15	1:159286-159372	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf15	1:c159372-159283	GW17_c01601
 genome:Gene	Ycf15	1:98445-98534	GW17_c01011
 genome:Gene	Ycf15	1:98300-98470	GW17_c01001
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf2
-genome:Gene	Ycf2	1:159635-166540	GW17_c01621
+genome:Gene	Ycf2	1:c166540-159632	GW17_c01621
 genome:Gene	Ycf2	1:91277-98185	GW17_c00991
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::3 genes have locus Ycf3
-genome:Gene	Ycf3	1:47189-47320	GW17_c00391
-genome:Gene	Ycf3	1:46228-46455	GW17_c00381
-genome:Gene	Ycf3	1:45300-45446	GW17_c00371
+genome:Gene	Ycf3	1:c47320-47186	GW17_c00391
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
 
 DiscRep_SUB:DUPLICATE_GENE_LOCUS::2 genes have locus Ycf68
-genome:Gene	Ycf68	1:149565-149837	GW17_c01511
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
 genome:Gene	Ycf68	1:107980-108252	GW17_c01111
 
 DiscRep_ALL:OVERLAPPING_GENES::14 genes overlap another gene on the same strand.
 genome:Gene	PsbD	1:35775-36836	GW17_c00281
 genome:Gene	PsbC	1:36745-38205	GW17_c00291
-genome:Gene	NdhK	1:52524-53375	GW17_c00471
-genome:Gene	NdhC	1:53258-53617	GW17_c00481
-genome:Gene	AtpE	1:56164-56565	GW17_c00531
-genome:Gene	AtpB	1:56565-58058	GW17_c00541
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53255	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56562	GW17_c00541
 genome:Gene	Ycf15	1:98300-98470	GW17_c01001
 genome:Gene	Ycf15	1:98445-98534	GW17_c01011
-genome:Gene	Rps12_3end	1:103494-103745	GW17_c01061
-genome:Gene	Rps12	1:103506-103745	GW17_c01071
-genome:Gene	Orf188	1:134966-135529	GW17_c01361
-genome:Gene	NdhA	1:134978-135529	GW17_c01371
-genome:Gene	Ycf15	1:159286-159372	GW17_c01601
-genome:Gene	Ycf15	1:159347-159517	GW17_c01611
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103503	GW17_c01071
+genome:Gene	Orf188	1:c135529-134963	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	Ycf15	1:c159372-159283	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
 
 DiscRep_ALL:OVERLAPPING_CDS::4 coding regions overlap another coding region with a similar or identical name.
 DiscRep_SUB:OVERLAPPING_CDS::4 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
 genome:CDS	Ycf15	1:98300-98470	GW17_c01001
 genome:CDS	Ycf15	1:98445-98534	GW17_c01011
-genome:CDS	Ycf15	1:159286-159372	GW17_c01601
-genome:CDS	Ycf15	1:159347-159517	GW17_c01611
+genome:CDS	Ycf15	1:c159372-159283	GW17_c01601
+genome:CDS	Ycf15	1:c159517-159347	GW17_c01611
 
 FATAL: DiscRep_ALL:CONTAINED_CDS::4 coding regions are completely contained in another coding region on the same strand.
-genome:CDS	Rps12_3end	1:103494-103745	GW17_c01061
-genome:CDS	Rps12	1:103506-103745	GW17_c01071
-genome:CDS	Orf188	1:134966-135529	GW17_c01361
-genome:CDS	NdhA	1:134978-135529	GW17_c01371
+genome:CDS	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:CDS	Rps12	1:c103745-103503	GW17_c01071
+genome:CDS	Orf188	1:c135529-134963	GW17_c01361
+genome:CDS	NdhA	1:c135529-134978	GW17_c01371
 
 DiscRep_ALL:SUSPECT_PRODUCT_NAMES::5 product_names contain suspect phrase or characters
 DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
 DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features Three or more numbers together
 genome:CDS	Orf188	1:122288-122854	GW17_c01251
-genome:CDS	Orf188	1:134966-135529	GW17_c01361
+genome:CDS	Orf188	1:c135529-134963	GW17_c01361
 
 DiscRep_SUB:SUSPECT_PRODUCT_NAMES::3 features Contains underscore
 genome:CDS	Psi_psbT	1:76737-78254	GW17_c00781
-genome:CDS	Rps12_3end	1:103494-103745	GW17_c01061
+genome:CDS	Rps12_3end	1:c103745-103494	GW17_c01061
 genome:CDS	Rps12_3end	1:154072-154323	GW17_c01551
+
+DiscRep_ALL:FIND_BADLEN_TRNAS::1 tRNAs are too long
+genome:tRNA	trnS-UGA	1:c38444-38353	
+
+DiscRep_ALL:FIND_BADLEN_TRNAS::13 tRNAs are too short
+genome:tRNA	trnK-UUU	1:c4331-4295	
+genome:tRNA	trnG-GCC	1:10850-10886	
+genome:tRNA	trnL-UAA	1:50239-50275	
+genome:tRNA	trnV-UAC	1:c55098-55062	
+genome:tRNA	trnV-UAC	1:c55728-55691	
+genome:tRNA	trnI-GAU	1:107769-107810	
+genome:tRNA	trnI-GAU	1:108746-108780	
+genome:tRNA	trnA-UGC	1:108845-108882	
+genome:tRNA	trnA-UGC	1:109684-109718	
+genome:tRNA	trnA-UGC	1:c148133-148099	
+genome:tRNA	trnA-UGC	1:c148972-148935	
+genome:tRNA	trnI-GAU	1:c149071-149037	
+genome:tRNA	trnI-GAU	1:c150048-150007	
+
+FATAL: DiscRep_ALL:RNA_NO_PRODUCT::47 RNA features have no product and are not pseudo
+genome:tRNA	trnK-UUU	1:c4331-4295	
+genome:tRNA	trnQ-UUG	1:c7877-7805	
+genome:tRNA	trnS-GCU	1:c9198-9111	
+genome:tRNA	trnG-GCC	1:10850-10886	
+genome:tRNA	trnR-UCU	1:11024-11095	
+genome:tRNA	trnC-GCA	1:29515-29595	
+genome:tRNA	trnD-GUC	1:c33213-33140	
+genome:tRNA	trnY-GUA	1:c33699-33616	
+genome:tRNA	trnE-UUC	1:c33826-33754	
+genome:tRNA	trnT-GGU	1:34597-34668	
+genome:tRNA	trnM-CAU	1:34603-34661	
+genome:tRNA	trnS-UGA	1:c38444-38353	
+genome:tRNA	trnG-UCC	1:39208-39278	
+genome:tRNA	trnfM-CAU	1:c39567-39494	
+genome:tRNA	trnS-GGA	1:47963-48049	
+genome:tRNA	trnT-UGU	1:c49345-49273	
+genome:tRNA	trnL-UAA	1:50239-50275	
+genome:tRNA	trnL-UAA	1:50819-50868	
+genome:tRNA	trnF-GAA	1:51187-51259	
+genome:tRNA	trnV-UAC	1:c55098-55062	
+genome:tRNA	trnV-UAC	1:c55728-55691	
+genome:tRNA	trnM-CAU	1:55909-55980	
+genome:tRNA	trnT-GGU	1:55914-55972	
+genome:tRNA	trnW-CCA	1:c70631-70558	
+genome:tRNA	trnP-UGG	1:c70869-70796	
+genome:tRNA	trnP-GGG	1:c70868-70798	
+genome:tRNA	trnH-GUG	1:89013-89087	
+genome:tRNA	trnI-CAU	1:c91152-91079	
+genome:tRNA	trnL-CAA	1:c99310-99230	
+genome:tRNA	trnV-GAC	1:105675-105746	
+genome:tRNA	trnI-GAU	1:107769-107810	
+genome:tRNA	trnI-GAU	1:108746-108780	
+genome:tRNA	trnA-UGC	1:108845-108882	
+genome:tRNA	trnA-UGC	1:109684-109718	
+genome:tRNA	trnR-ACG	1:113482-113555	
+genome:tRNA	trnN-GUU	1:c114205-114134	
+genome:tRNA	trnL-UAG	1:127406-127485	
+genome:tRNA	trnN-GUU	1:143612-143683	
+genome:tRNA	trnR-ACG	1:c144335-144262	
+genome:tRNA	trnA-UGC	1:c148133-148099	
+genome:tRNA	trnA-UGC	1:c148972-148935	
+genome:tRNA	trnI-GAU	1:c149071-149037	
+genome:tRNA	trnI-GAU	1:c150048-150007	
+genome:tRNA	trnV-GAC	1:c152142-152071	
+genome:tRNA	trnL-CAA	1:158507-158587	
+genome:tRNA	trnI-CAU	1:166665-166738	
+genome:tRNA	trnH-GUG	1:c168804-168730	
 
 DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
 
 DiscRep_ALL:TEST_BAD_GENE_NAME::119 genes contain suspect phrase or characters
 DiscRep_SUB:DISC_BAD_BACTERIAL_GENE_NAME::113 bacterial genes do not start with lowercase letters
-genome:Gene	PsbA	1:275-1333	GW17_c00001
-genome:Gene	MatK	1:1939-3465	GW17_c00011
-genome:Gene	Rps16	1:5075-5287	GW17_c00031
+genome:Gene	PsbA	1:c1333-272	GW17_c00001
+genome:Gene	MatK	1:c3465-1939	GW17_c00011
+genome:Gene	Rps16	1:c5287-5072	GW17_c00031
 genome:Gene	PsbK	1:8237-8422	GW17_c00051
 genome:Gene	PsbI	1:8820-8975	GW17_c00061
-genome:Gene	AtpA	1:11244-12785	GW17_c00101
-genome:Gene	AtpF	1:12863-13270	GW17_c00111
-genome:Gene	AtpF	1:14114-14257	GW17_c00121
-genome:Gene	AtpH	1:14754-14996	GW17_c00131
-genome:Gene	AtpI	1:16164-16904	GW17_c00141
-genome:Gene	Rps2	1:17191-17895	GW17_c00151
-genome:Gene	RpoC2	1:18190-22266	GW17_c00161
-genome:Gene	RpoC1	1:22459-24093	GW17_c00171
-genome:Gene	RpoC1	1:24791-25231	GW17_c00181
-genome:Gene	RpoB	1:25261-28476	GW17_c00191
+genome:Gene	AtpA	1:c12785-11244	GW17_c00101
+genome:Gene	AtpF	1:c13270-12860	GW17_c00111
+genome:Gene	AtpF	1:c14257-14114	GW17_c00121
+genome:Gene	AtpH	1:c14996-14751	GW17_c00131
+genome:Gene	AtpI	1:c16904-16161	GW17_c00141
+genome:Gene	Rps2	1:c17895-17191	GW17_c00151
+genome:Gene	RpoC2	1:c22266-18190	GW17_c00161
+genome:Gene	RpoC1	1:c24093-22456	GW17_c00171
+genome:Gene	RpoC1	1:c25231-24791	GW17_c00181
+genome:Gene	RpoB	1:c28476-25258	GW17_c00191
 genome:Gene	PetN	1:30523-30618	GW17_c00211
-genome:Gene	PsbM	1:31972-32073	GW17_c00221
+genome:Gene	PsbM	1:c32073-31969	GW17_c00221
 genome:Gene	PsbD	1:35775-36836	GW17_c00281
 genome:Gene	PsbC	1:36745-38205	GW17_c00291
 genome:Gene	LhbA	1:38786-38974	GW17_c00311
-genome:Gene	Rps14	1:39736-40035	GW17_c00341
-genome:Gene	PsaB	1:40188-42389	GW17_c00351
-genome:Gene	PsaA	1:42418-44670	GW17_c00361
-genome:Gene	Ycf3	1:45300-45446	GW17_c00371
-genome:Gene	Ycf3	1:46228-46455	GW17_c00381
-genome:Gene	Ycf3	1:47189-47320	GW17_c00391
-genome:Gene	Rps4	1:48346-48948	GW17_c00411
-genome:Gene	NdhJ	1:51935-52411	GW17_c00461
-genome:Gene	NdhK	1:52524-53375	GW17_c00471
-genome:Gene	NdhC	1:53258-53617	GW17_c00481
-genome:Gene	AtpE	1:56164-56565	GW17_c00531
-genome:Gene	AtpB	1:56565-58058	GW17_c00541
+genome:Gene	Rps14	1:c40035-39733	GW17_c00341
+genome:Gene	PsaB	1:c42389-40185	GW17_c00351
+genome:Gene	PsaA	1:c44667-42415	GW17_c00361
+genome:Gene	Ycf3	1:c45446-45300	GW17_c00371
+genome:Gene	Ycf3	1:c46455-46228	GW17_c00381
+genome:Gene	Ycf3	1:c47320-47186	GW17_c00391
+genome:Gene	Rps4	1:c48948-48343	GW17_c00411
+genome:Gene	NdhJ	1:c52411-51932	GW17_c00461
+genome:Gene	NdhK	1:c53375-52524	GW17_c00471
+genome:Gene	NdhC	1:c53617-53255	GW17_c00481
+genome:Gene	AtpE	1:c56565-56164	GW17_c00531
+genome:Gene	AtpB	1:c58058-56562	GW17_c00541
 genome:Gene	RbcL	1:58916-60367	GW17_c00551
 genome:Gene	AccD	1:61121-62740	GW17_c00561
 genome:Gene	PsaI	1:63303-63413	GW17_c00571
 genome:Gene	Ycf4	1:63765-64319	GW17_c00581
 genome:Gene	CemA	1:64969-65664	GW17_c00591
 genome:Gene	PetA	1:65886-66848	GW17_c00601
-genome:Gene	PsbJ	1:67805-67924	GW17_c00611
-genome:Gene	PsbL	1:68053-68166	GW17_c00621
-genome:Gene	PsbF	1:68192-68308	GW17_c00631
-genome:Gene	PsbE	1:68322-68570	GW17_c00641
+genome:Gene	PsbJ	1:c67924-67802	GW17_c00611
+genome:Gene	PsbL	1:c68166-68050	GW17_c00621
+genome:Gene	PsbF	1:c68308-68189	GW17_c00631
+genome:Gene	PsbE	1:c68570-68319	GW17_c00641
 genome:Gene	PetL	1:70027-70122	GW17_c00651
 genome:Gene	PetG	1:70295-70408	GW17_c00661
 genome:Gene	PsaJ	1:71236-71364	GW17_c00701
 genome:Gene	Rpl33	1:71955-72155	GW17_c00711
 genome:Gene	Rps18	1:72324-72629	GW17_c00721
-genome:Gene	Rpl20	1:72897-73250	GW17_c00731
-genome:Gene	Rps12	1:73955-74068	GW17_c00741
-genome:Gene	ClpP	1:74222-74470	GW17_c00751
-genome:Gene	ClpP	1:75114-75404	GW17_c00761
-genome:Gene	ClpP	1:76210-76281	GW17_c00771
+genome:Gene	Rpl20	1:c73247-72894	GW17_c00731
+genome:Gene	Rps12	1:c74068-73955	GW17_c00741
+genome:Gene	ClpP	1:c74470-74222	GW17_c00751
+genome:Gene	ClpP	1:c75404-75114	GW17_c00761
+genome:Gene	ClpP	1:c76278-76207	GW17_c00771
 genome:Gene	Psi_psbT	1:76737-78254	GW17_c00781
 genome:Gene	PsbT	1:78433-78543	GW17_c00791
-genome:Gene	PsbN	1:78611-78739	GW17_c00801
+genome:Gene	PsbN	1:c78739-78608	GW17_c00801
 genome:Gene	PsbH	1:78842-79072	GW17_c00811
 genome:Gene	PetB	1:79997-80653	GW17_c00821
 genome:Gene	PetD	1:81534-82088	GW17_c00831
-genome:Gene	RpoA	1:82286-83296	GW17_c00841
-genome:Gene	Rps11	1:83367-83780	GW17_c00851
-genome:Gene	Rpl36	1:83909-84019	GW17_c00861
-genome:Gene	InfA	1:84135-84365	GW17_c00871
-genome:Gene	Rps8	1:84485-84880	GW17_c00881
-genome:Gene	Rpl14	1:85120-85485	GW17_c00891
-genome:Gene	Rpl16	1:85618-86016	GW17_c00901
-genome:Gene	Rps3	1:87208-87858	GW17_c00911
-genome:Gene	Rpl22	1:87931-88311	GW17_c00921
-genome:Gene	Rps19	1:88568-88843	GW17_c00931
-genome:Gene	Rpl2	1:89134-89565	GW17_c00951
-genome:Gene	Rpl2	1:90222-90608	GW17_c00961
-genome:Gene	Rpl23	1:90636-90914	GW17_c00971
+genome:Gene	RpoA	1:c83296-82283	GW17_c00841
+genome:Gene	Rps11	1:c83780-83364	GW17_c00851
+genome:Gene	Rpl36	1:c84019-83906	GW17_c00861
+genome:Gene	InfA	1:c84365-84132	GW17_c00871
+genome:Gene	Rps8	1:c84880-84482	GW17_c00881
+genome:Gene	Rpl14	1:c85485-85117	GW17_c00891
+genome:Gene	Rpl16	1:c86016-85618	GW17_c00901
+genome:Gene	Rps3	1:c87858-87208	GW17_c00911
+genome:Gene	Rpl22	1:c88311-87931	GW17_c00921
+genome:Gene	Rps19	1:c88843-88565	GW17_c00931
+genome:Gene	Rpl2	1:c89562-89131	GW17_c00951
+genome:Gene	Rpl2	1:c90608-90222	GW17_c00961
+genome:Gene	Rpl23	1:c90914-90633	GW17_c00971
 genome:Gene	Ycf2	1:91277-98185	GW17_c00991
 genome:Gene	Ycf15	1:98300-98470	GW17_c01001
 genome:Gene	Ycf15	1:98445-98534	GW17_c01011
-genome:Gene	NdhB	1:99881-100633	GW17_c01031
-genome:Gene	NdhB	1:101334-102110	GW17_c01041
-genome:Gene	Rps7	1:102418-102882	GW17_c01051
-genome:Gene	Rps12_3end	1:103494-103745	GW17_c01061
-genome:Gene	Rps12	1:103506-103745	GW17_c01071
+genome:Gene	NdhB	1:c100633-99878	GW17_c01031
+genome:Gene	NdhB	1:c102110-101334	GW17_c01041
+genome:Gene	Rps7	1:c102882-102415	GW17_c01051
+genome:Gene	Rps12_3end	1:c103745-103494	GW17_c01061
+genome:Gene	Rps12	1:c103745-103503	GW17_c01071
 genome:Gene	Ycf68	1:107980-108252	GW17_c01111
-genome:Gene	Orf42	1:109026-109142	GW17_c01141
-genome:Gene	Orf56	1:109343-109507	GW17_c01151
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
 genome:Gene	Ycf1	1:114546-120344	GW17_c01221
 genome:Gene	Rps15	1:120695-121000	GW17_c01231
 genome:Gene	NdhH	1:121105-122286	GW17_c01241
 genome:Gene	Orf188	1:122288-122854	GW17_c01251
-genome:Gene	NdhF	1:123417-125618	GW17_c01261
+genome:Gene	NdhF	1:c125618-123417	GW17_c01261
 genome:Gene	Rpl32	1:126410-126583	GW17_c01271
 genome:Gene	CcsA	1:127584-128573	GW17_c01291
-genome:Gene	NdhD	1:128815-130317	GW17_c01301
-genome:Gene	PsaC	1:130443-130685	GW17_c01311
-genome:Gene	NdhE	1:131358-131663	GW17_c01321
-genome:Gene	NdhG	1:131787-132314	GW17_c01331
-genome:Gene	NdhI	1:132714-133253	GW17_c01341
-genome:Gene	NdhA	1:133345-133881	GW17_c01351
-genome:Gene	Orf188	1:134966-135529	GW17_c01361
-genome:Gene	NdhA	1:134978-135529	GW17_c01371
-genome:Gene	NdhH	1:135534-136712	GW17_c01381
-genome:Gene	Rps15	1:136820-137122	GW17_c01391
-genome:Gene	Ycf1	1:137473-143271	GW17_c01401
+genome:Gene	NdhD	1:c130317-128812	GW17_c01301
+genome:Gene	PsaC	1:c130685-130440	GW17_c01311
+genome:Gene	NdhE	1:c131660-131355	GW17_c01321
+genome:Gene	NdhG	1:c132314-131784	GW17_c01331
+genome:Gene	NdhI	1:c133253-132711	GW17_c01341
+genome:Gene	NdhA	1:c133881-133342	GW17_c01351
+genome:Gene	Orf188	1:c135529-134963	GW17_c01361
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
+genome:Gene	NdhH	1:c136712-135531	GW17_c01381
+genome:Gene	Rps15	1:c137122-136817	GW17_c01391
+genome:Gene	Ycf1	1:c143271-137473	GW17_c01401
 genome:Gene	Orf56	1:148310-148474	GW17_c01471
 genome:Gene	Orf42	1:148675-148791	GW17_c01481
-genome:Gene	Ycf68	1:149565-149837	GW17_c01511
+genome:Gene	Ycf68	1:c149837-149565	GW17_c01511
 genome:Gene	Rps12_3end	1:154072-154323	GW17_c01551
 genome:Gene	Rps7	1:154935-155402	GW17_c01561
 genome:Gene	NdhB	1:155707-156483	GW17_c01571
 genome:Gene	NdhB	1:157184-157939	GW17_c01581
-genome:Gene	Ycf15	1:159286-159372	GW17_c01601
-genome:Gene	Ycf15	1:159347-159517	GW17_c01611
-genome:Gene	Ycf2	1:159635-166540	GW17_c01621
+genome:Gene	Ycf15	1:c159372-159283	GW17_c01601
+genome:Gene	Ycf15	1:c159517-159347	GW17_c01611
+genome:Gene	Ycf2	1:c166540-159632	GW17_c01621
 genome:Gene	Rpl23	1:166903-167184	GW17_c01641
 genome:Gene	Rpl2	1:167209-167595	GW17_c01651
 genome:Gene	Rpl2	1:168255-168686	GW17_c01661
 
 DiscRep_SUB:TEST_BAD_GENE_NAME::6 genes contain orf
-genome:Gene	Orf42	1:109026-109142	GW17_c01141
-genome:Gene	Orf56	1:109343-109507	GW17_c01151
+genome:Gene	Orf42	1:c109142-109026	GW17_c01141
+genome:Gene	Orf56	1:c109507-109343	GW17_c01151
 genome:Gene	Orf188	1:122288-122854	GW17_c01251
-genome:Gene	Orf188	1:134966-135529	GW17_c01361
+genome:Gene	Orf188	1:c135529-134963	GW17_c01361
 genome:Gene	Orf56	1:148310-148474	GW17_c01471
 genome:Gene	Orf42	1:148675-148791	GW17_c01481
 
@@ -320,8 +453,8 @@ DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembl
 genome:1 (length 168843)
 
 DiscRep_ALL:FIND_OVERLAPPED_GENES::2 genes completely overlapped by other genes
-genome:Gene	Rps12	1:103506-103745	GW17_c01071
-genome:Gene	NdhA	1:134978-135529	GW17_c01371
+genome:Gene	Rps12	1:c103745-103503	GW17_c01071
+genome:Gene	NdhA	1:c135529-134978	GW17_c01371
 
 DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
 genome:1 (length 168843)
@@ -332,6 +465,16 @@ genome:1 (length 168843)
 DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
 genome:1 (length 168843)
 
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::8 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+genome:rRNA	rrn16	1:105974-107464	
+genome:rRNA	rrn23	1:109855-112662	
+genome:rRNA	rrn4.5	1:112768-112870	
+genome:rRNA	rrn5	1:113081-113201	
+genome:rRNA	rrn5	1:c144736-144616	
+genome:rRNA	rrn4.5	1:c145049-144947	
+genome:rRNA	rrn23	1:c147957-145150	
+genome:rRNA	rrn16	1:c151843-150353	
+
 DiscRep_ALL:ONCALLER_BIOPROJECT_ID::114 sequences contain BioProject IDs
 genome:1 (length 168843)
 genome:ncbi:GW17_c00001 (length 353)
@@ -340,7 +483,7 @@ genome:ncbi:GW17_c00031 (length 71)
 genome:ncbi:GW17_c00051 (length 61)
 genome:ncbi:GW17_c00061 (length 51)
 genome:ncbi:GW17_c00101 (length 514)
-genome:ncbi:GW17_c00111 (length 135)
+genome:ncbi:GW17_c00111 (length 136)
 genome:ncbi:GW17_c00121 (length 48)
 genome:ncbi:GW17_c00131 (length 81)
 genome:ncbi:GW17_c00141 (length 247)
@@ -428,7 +571,7 @@ genome:ncbi:GW17_c01311 (length 81)
 genome:ncbi:GW17_c01321 (length 101)
 genome:ncbi:GW17_c01331 (length 176)
 genome:ncbi:GW17_c01341 (length 180)
-genome:ncbi:GW17_c01351 (length 178)
+genome:ncbi:GW17_c01351 (length 179)
 genome:ncbi:GW17_c01361 (length 188)
 genome:ncbi:GW17_c01371 (length 184)
 genome:ncbi:GW17_c01381 (length 393)
@@ -436,7 +579,7 @@ genome:ncbi:GW17_c01391 (length 101)
 genome:ncbi:GW17_c01401 (length 1933)
 genome:ncbi:GW17_c01471 (length 55)
 genome:ncbi:GW17_c01481 (length 39)
-genome:ncbi:GW17_c01511 (length 90)
+genome:ncbi:GW17_c01511 (length 91)
 genome:ncbi:GW17_c01551 (length 84)
 genome:ncbi:GW17_c01561 (length 155)
 genome:ncbi:GW17_c01571 (length 259)

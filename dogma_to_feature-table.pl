@@ -113,12 +113,19 @@ while (<FILE>) {
 	    print "\t\t\ttranscript_id\tgnl|ncbi|$locus_tag\_mrna\n";
    
 
-	} elsif($feature_type eq 'rRNA') {
-
-
 	} elsif($feature_type eq 'tRNA') {
 
+	    print "$start\t$stop\ttRNA\n";
+	    print "\t\t\tproduct\t$product\n";
+	  
 
+	    
+
+	} elsif($feature_type eq 'rRNA') {
+	   
+	    print "$start\t$stop\trRNA\n";
+	    print "\t\t\tproduct\t$product\n";
+	    
 	}
     }
 }
