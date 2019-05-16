@@ -46,6 +46,13 @@ So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl
                         transcript_id   gnl|ncbi|GW17_c00011_mrna
 ```
 
+So, the output of this script is a Feature Table (.tbl).
+The required input is DOGMA output plus the chloroplast genome sequence (in fastA format).
+
+Usage:
+```
+perl dogma_to_feature-table.pl  DOGMA_annotation_text_summary.txt genome.fasta > genome.tbl
+```
 
 
 
