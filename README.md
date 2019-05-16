@@ -21,27 +21,22 @@ So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl
 >Feature 1
 1       168843  REFERENCE
                         PBARC   12345
-275     1333    gene
+1333    275     gene
                         gene    PsbA
                         locus_tag       GW17_c00001
-275     1333    mRNA
+1333    275     mRNA
                         product PsbA
                         protein_id      gnl|ncbi|GW17_c00001
                         transcript_id   gnl|ncbi|GW17_c00001_mrna
-275     1333    CDS
+1333    275     CDS
                         codon_start     1
                         product PsbA
                         protein_id      gnl|ncbi|GW17_c00001
                         transcript_id   gnl|ncbi|GW17_c00001_mrna
-1939    3465    gene
+3465    1939    gene
                         gene    MatK
                         locus_tag       GW17_c00011
-1939    3465    mRNA
-                        product MatK
-                        protein_id      gnl|ncbi|GW17_c00011
-                        transcript_id   gnl|ncbi|GW17_c00011_mrna
-1939    3465    CDS
-                        codon_start     1
+3465    1939    mRNA
                         product MatK
                         protein_id      gnl|ncbi|GW17_c00011
                         transcript_id   gnl|ncbi|GW17_c00011_mrna
@@ -62,15 +57,6 @@ Subsequently, I can then convert this Feature Table into Sequin format:
 ```
 This generates a number of files, including ```genome.sqn```.
 (Template file was generated here: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/)
-
-
-
-
-
-
-
-
-
 
 
 
