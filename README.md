@@ -8,12 +8,19 @@ table format, which looks like this:
 ```
 275     1333    psbA    -
 1939    3465    matK    -
+4295    4331    trnK-UUU        -
+5075    5287    rps16   -
+7805    7877    trnQ-UUG        -
+8237    8419    psbK    +
+8820    8972    psbI    +
+9111    9198    trnS-GCU        -
+10850   10886   trnG-GCC        +
+11024   11095   trnR-UCU        +
 ```
 
-I want to submit this annotation (along with the nucleotide sequence) to GenBank via NCBI.
-NCBI require the submission in Sequin (.sqn) format.
-This requires conversion of Feature Table (.tbl) into Sequin (.sqn) format using the
-[tbl2asn tool](https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/).
+I want to submit this annotation (along with the nucleotide sequence) to GenBank via
+[BankIt at NCBI](https://www.ncbi.nlm.nih.gov/WebSub/).
+BankIt requires the submission in Feature Table (.tbl) into Sequin (.sqn) format.
 
 So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl) format, which looks like this:
 
@@ -23,23 +30,29 @@ So, I need to convert DOGMA's output (see above) into NCBI's Feature Table (.tbl
                         PBARC   12345
 1333    275     gene
                         gene    PsbA
-                        locus_tag       GW17_c00001
-1333    275     mRNA
-                        product PsbA
-                        protein_id      gnl|ncbi|GW17_c00001
-                        transcript_id   gnl|ncbi|GW17_c00001_mrna
-1333    275     CDS
-                        codon_start     1
-                        product PsbA
-                        protein_id      gnl|ncbi|GW17_c00001
-                        transcript_id   gnl|ncbi|GW17_c00001_mrna
+                        locus_tag       GW17_> genome.tbl00001
 3465    1939    gene
                         gene    MatK
-                        locus_tag       GW17_c00011
-3465    1939    mRNA
-                        product MatK
-                        protein_id      gnl|ncbi|GW17_c00011
-                        transcript_id   gnl|ncbi|GW17_c00011_mrna
+                        locus_tag       GW17_> genome.tbl00011
+4331    4295    tRNA
+                        product tRNA-Lysine
+5287    5075    gene
+                        gene    Rps16
+                        locus_tag       GW17_> genome.tbl00031
+7877    7805    tRNA
+                        product tRNA-Glutamine
+8237    8419    gene
+                        gene    PsbK
+                        locus_tag       GW17_> genome.tbl00051
+8820    8972    gene
+                        gene    PsbI
+                        locus_tag       GW17_> genome.tbl00061
+9198    9111    tRNA
+                        product tRNA-Serine
+10850   10886   tRNA
+                        product tRNA-Glycine
+11024   11095   tRNA
+                        product tRNA-Arginine
 ```
 
 So, the output of this script is a Feature Table (.tbl).
@@ -47,17 +60,17 @@ The required input is DOGMA output plus the chloroplast genome sequence (in fast
 
 Usage:
 ```
-perl dogma_to_feature-table.pl  DOGMA_annotation_text_summary.txt genome.fasta > genome.tbl
+perl dogma_to_feature-table.pl  DOGMA_annotation_text_summary.txt genome.fasta  'GW17_> genome.tbl' > genome.tbl
 ```
 
-Subsequently, I can then convert this Feature Table into Sequin format:
+Optionally, we can then convert this Feature Table into Sequin format using [tbl2asn](https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/), though this is not required
+by BankIT:
 
 ```
 ./tbl2asn -t template.sbt -i genome.fasta -Mn -Z discrep -a r10k -l paired_ends -j"[organism=Ensete ventricosum]"
 ```
 This generates a number of files, including ```genome.sqn```.
 (Template file was generated here: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/)
-
 
 
 ## References
