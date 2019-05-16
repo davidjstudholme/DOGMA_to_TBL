@@ -54,6 +54,14 @@ Usage:
 perl dogma_to_feature-table.pl  DOGMA_annotation_text_summary.txt genome.fasta > genome.tbl
 ```
 
+Subsequently, I can then convert this Feature Table into Sequin format:
+
+```
+./tbl2asn -t template.sbt -i genome.fasta -Mn -Z discrep -a r10k -l paired_ends -j"[organism=Ensete ventricosum]"
+```
+This generates a number of files, including ```genome.sqn```.
+
+
 
 
 
