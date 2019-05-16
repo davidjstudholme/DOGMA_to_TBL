@@ -2,7 +2,7 @@
 Converting DOGMA annotation into NCBI's feature table format
 
 ## The problem that I am trying to solve:
-I have annotated a chloroplast genome using [DOGMA]{https://dogma.ccbb.utexas.edu/}. This produces annotation in DOGMA's
+I have annotated a chloroplast genome using ![DOGMA]{https://dogma.ccbb.utexas.edu/}. This produces annotation in DOGMA's
 table format, which looks like this:
 
 
